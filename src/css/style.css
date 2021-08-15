@@ -1,0 +1,475 @@
+@import url("https://use.typekit.net/hyg2ibg.css");
+
+* {
+  outline: none;
+  user-select: none;
+  scroll-behavior: smooth;
+  font-display: optional;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+html {
+  width: auto;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: 100%;
+  overflow-x: hidden;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  font-display: swap;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Header */
+
+.header {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header video {
+  z-index: -1;
+  height: 100vh;
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+.header img {
+  display: none;
+}
+
+/**/
+#wrapper {
+  animation: fadeInwrapper ease 2.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  width: 100%;
+  overflow: hidden;
+}
+
+@keyframes fadeInwrapper {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* About_me */
+
+.about_me {
+  width: 100%;
+  height: auto;
+}
+
+/* About */
+.about {
+  height: auto;
+  width: 100%;
+  margin: 100px 0 100px 0;
+  overflow-x: hidden;
+}
+
+.about h1 {
+  font-size: 4em;
+}
+
+.about-text {
+  margin: 0 auto;
+  width: 700px;
+}
+
+.about-our-way {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.about-our-way-visual {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.about-our-way-visual-info {
+  max-width: 300px;
+  height: auto;
+  margin: 50px; 
+}
+
+.about-our-way-visual-header-last{
+  padding: 0 0 100px 0 !important;
+}
+
+.about-our-way-visual-img {
+  margin: 0 0 50px 0;
+}
+
+.about-our-way-visual-img img {
+  height: auto;
+  width: 66px;
+}
+
+
+
+/*! Left side*/
+/*! */
+/*! */
+/*! */
+/*! */
+/*! video creator section */
+.video_creator {
+  height: 100vh;
+  width: 100%;
+}
+
+/*! Left side*/
+.video_creator .left_side {
+  height: 100%;
+  width: 50%;
+  overflow-y: scroll;
+}
+
+.video_creator .left_side::-webkit-scrollbar {
+  width: 0;
+}
+
+.video_creator .left_header h1 {
+  padding: 30px 0 0 0;
+  font-size: 4em;
+  letter-spacing: 20px;
+}
+
+.video_creator .left_header p {
+  padding: 30px 50px 0 50px;
+  font-size: 1.3em;
+  line-height: 40px;
+}
+
+/*! right side*/
+.video_creator .right_side {
+  height: 100%;
+  width: 50%;
+  background: url("https://www.blackdayz.de/src/img/homescreen/video_entwickler.jpg")
+    no-repeat center;
+  background-size: cover;
+}
+
+
+/*! Back To Top */
+.back-to-top {
+  bottom: 20px;
+  right: 20px;
+  padding: 11px 14px;
+  z-index: 100;
+}
+
+.back-to-top i {
+  font-size: 2em;
+}
+
+/* Footer */
+
+.footer {
+  height: 200px;
+}
+
+.footer ul {
+  margin: 50px 0 0 0px;
+}
+
+.footer ul li {
+  display: inline;
+  margin: 10px;
+}
+
+.footer .brand {
+  width: auto;
+}
+
+.footer .brand img {
+  height: 180px;
+  width: 280px;
+}
+
+/*! */
+/*! */
+/*! */
+
+/*! Datenschutz.html */
+
+.legalinformation {
+  padding: 150px 0 0 0;
+  height: auto;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.legalinformation::-webkit-scrollbar {
+  width: 0;
+}
+.legalinformation::-webkit-scrollbar-track {
+  background: transparent;
+}
+.legalinformation::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+#Datenschutz {
+  max-width: 40%;
+  padding: 34.8px;
+}
+
+#Impressum {
+  float: right;
+  padding: 34.8px;
+  max-width: 40%;
+}
+
+/*! */
+/*! */
+/*! */
+
+/*! work.html */
+
+.work_content {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 0 0 0;
+  width: auto;
+}
+
+.content_nav {
+  width: 100%;
+}
+
+.content_nav ul li {
+  margin: 0 30px;
+  padding: 10px;
+  transition: 0.5s ease-in;
+  border-radius: 5px;
+}
+
+.content_nav ul li:hover {
+  background: white;
+  color: black;
+  border-radius: 10px;
+}
+
+.section {
+  padding: 10px 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+.section iframe {
+  display: block;
+}
+
+.section span {
+  bottom: 80px;
+  opacity: 1;
+  width: 600px;
+  height: 3em;
+  line-height: 3em;
+  transition: 0.5s ease-in-out;
+  background: #ffffffa4;
+}
+.section span:hover {
+  opacity: 0;
+}
+
+.work_content .erfahremehr {
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+.section .norelease {
+  height: 315px;
+  width: 600px;
+  z-index: 9999;
+  background: url("https://www.blackdayz.de/src/img/logo/BlackDayzLogo.png")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.prerelease {
+  background: #ffffffa4;
+  opacity: 1;
+  height: 310px;
+  width: 600px;
+  z-index: 9999;
+  background: url("https://www.blackdayz.de/src/img/work/M235i_Night-1-2.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.prerelease span:hover {
+  opacity: 1;
+}
+
+.section .norelease span {
+  background: #ffffffa4;
+  opacity: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*! */
+/*! */
+/*! */
+
+/*! Error Seiten */
+
+.Error {
+  height: 80vh;
+  max-height: 80vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.Error h1 {
+  font-size: 10em;
+  letter-spacing: 25px;
+}
+
+.Error p {
+  font-size: 2em;
+}
+
+/*! */
+/*! */
+/*! */
+/*! */
+/*! */
+/*! */
+/*! */
+/*! */
+/*! */
+
+/*! Detailierte Arbeitanseiten */
+
+#moreaboutwork {
+  height: 100vh;
+  max-height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.workname h1 {
+  width: 400px;
+  font-size: 6em;
+  margin: 50px 0 0 200px;
+}
+
+.worktext p {
+  margin: 0 200px 0 0;
+  padding: 20px;
+  width: 400px;
+  font-size: 1.6em;
+  max-height: 80vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+.worktext p::-webkit-scrollbar {
+  width: 0;
+}
+.worktext p::-webkit-scrollbar-track {
+  background: transparent;
+}
+.worktext p::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.workiframe {
+  margin: 50px 0 0 200px;
+}
+
+.worker {
+  top: 100px;
+}
+
+.bts-pics {
+  display: inline-block;
+  margin: 50px 0 0 200px;
+  bottom: 0;
+}
+
+.bts-pics img {
+  margin: 60px 20px 20px 0;
+  width: 500px;
+  height: auto;
+  float: left;
+}
+
+/* 
+AdBlocker 
+*/
+
+#detect_adblocker {
+  display: none;
+}
+
+/* Outdated Browser */
+
+.outdated {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  background: rgba(0, 0, 0, 0.623);
+  overflow: hidden;
+}
+
+.outdated p {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
