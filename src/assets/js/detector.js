@@ -14,7 +14,7 @@ function hasAdblock() {
             if (tmp && (tmp.getPropertyValue('display') == 'none' || tmp.getPropertyValue('visibility') == 'hidden')) r = true;
         }
         document.body.removeChild(a);
-    } catch (e) { }
+    } catch (e) {}
     return r;
 }
 console.log('AdBlocker: ' + hasAdblock());

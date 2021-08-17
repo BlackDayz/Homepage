@@ -1,0 +1,14 @@
+{
+    "homepage" : {
+        "path": "/",
+        "name": "BlackDayz Homepage"
+    },
+    "work" : {
+        "path": "/work",
+        "name": "BlackDayz Work"
+    },
+    "legal" : {
+        "path": "/legal",
+        "name": "BlackDayz Legalinformations"
+    }
+}

@@ -1,18 +1,20 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <hpheader />
   </div>
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+<style scoped>
 
+</style>
+
+<script>
+import hpheader from '../components/homepage/hp-header.vue';
+const routerconfig = require('../assets/js/config/getConfig').getConfig.router();
 export default {
-  name: 'Home',
+  name: routerconfig.homepage.name,
   components: {
-    HelloWorld
+    hpheader
   }
 }
 </script>

@@ -24,3 +24,16 @@
     </div>
   </nav>
 </template>
+
+<style scoped>
+@import('../../assets/css/_nav/nav.css');
+</style>
+
+<script>
+
+export default {
+  data: () => {
+    
+  }
+}
+</script>
