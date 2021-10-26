@@ -12,10 +12,15 @@
     transform: translateY(-50%);
 }
 
+.hp_header_txt,
+.hp_header_nav {
+    transition: all .8s;
+}
+
 .hp_header_txt {
     top: 50%;
     left: 10%;
-    transform: translateY(-50%);
+    transform: translateY(-80%);
     width: 40%;
 }
 

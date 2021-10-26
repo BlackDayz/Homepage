@@ -1,0 +1,39 @@
+@import url('./hp-about.media.css');
+
+.hp-about {
+    min-height: 40vh;
+    margin: 200px 0;
+}
+
+.hp-about-content {
+    background: rgb(228, 228, 228);
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 120px 30px 30px 30px;
+}
+
+.hp-about-content img {
+    width: 150px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-110%);
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.479);
+    border-radius: 4px;
+}
+
+.hp-about-content p {
+    width: 80%;
+    margin: 40px 0 0 0;
+    color: rgb(32, 32, 32);
+}
+
+.hp-about-line {
+    width: 300px;
+    height: 3px;
+    border-radius: 10px;
+    position: absolute;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    background: black;
+}

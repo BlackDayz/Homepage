@@ -13,6 +13,19 @@
   </div>
 </template>
 
+<script>
+  export default {
+    mounted: () => {
+      document.querySelector('.hp_header_txt').style.transform = "translateX(-100%)"
+      document.querySelector('.hp_header_nav').style.transform = "translateX(300%)"
+      setTimeout(() => {
+        document.querySelector('.hp_header_nav').style.transform = "translateX(0)"
+        document.querySelector('.hp_header_txt').style.transform = "translateX(0)"
+      }, 500);
+    }
+  }
+</script>
+
 <style scoped>
 @import url('../../assets/css/hp-header/hp-header.css');
 </style>

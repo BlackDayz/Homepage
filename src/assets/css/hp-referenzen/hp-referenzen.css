@@ -1,0 +1,83 @@
+@import url('./hp-referenzen.mobile.css');
+
+.hp-ref {
+    height: auto;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.hp-ref-nav {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hp-ref-web {
+    background: url('../../img/header/hp_header_img_bg.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.hp-ref-video {
+    background: url('../../img/referenzen/ref-nav-film.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.hp-ref-web,
+.hp-ref-video {
+    width: 250px;
+    height: 120px;
+    border-radius: 5px;
+    margin: 0 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.hp-ref-web:hover,
+.hp-ref-video:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+
+.hp-ref-web span,
+.hp-ref-video span {
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+}
+
+.ref-selected {
+    transition: all .3s ease-in-out;
+}
+
+.ref-selected::before {
+    content: '';
+    position: absolute;
+    color: black;
+    padding: 15px 30px;
+    background: #dadada;
+    margin-top: -90px;
+    margin-right: -190px;
+    border-radius: 0 5px 0 5px;
+    transition: all .2s ease-in-out;
+}
+
+.hp-ref-line {
+    width: 0; /* 800px */
+    height: 2px;
+    background: white;
+    margin: 90px auto;
+    transition: all .6s ease-in-out;
+}
+
+.hp-ref-body {
+    text-align: center;
+}
+
+.hp-ref-ctn {
+    width: 300px;
+    height: 100px;
+}

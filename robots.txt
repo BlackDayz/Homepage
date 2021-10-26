@@ -1,4 +1,5 @@
 User-Agent: *
+Disallow: /node_modules/
 Disallow: /src/
 Disallow: /under_construction/
 Disallow: /400/
