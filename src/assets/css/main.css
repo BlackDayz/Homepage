@@ -1,13 +1,31 @@
+@font-face {
+    font-family: 'decterm';
+    src: url('../fonts/dec_terminal_modern/_decterm.ttf');
+}
 body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow: hidden;
     background: rgb(31, 31, 31);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'decterm';
+    user-select: none;
+    color: green;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+img {
+    pointer-events: none
+}
+
+.oldtvframe {
+    z-index: 99;
+    position: fixed;
+    height: 105%;
+    width: 102%;
+    margin-left: -5px;
 }

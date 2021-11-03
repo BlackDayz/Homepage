@@ -74,10 +74,22 @@
 }
 
 .hp-ref-body {
-    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
 }
 
 .hp-ref-ctn {
     width: 300px;
-    height: 100px;
+    height: fit-content;
+    margin: 10px 30px;
+    padding: 30px;
+    float: left;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
 }

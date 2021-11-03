@@ -1,31 +1,31 @@
 <template>
   <div class="hp_header">
-    <img src="../../assets/img/logo/BlackDayzLogo.png" alt="" class="hp_header_logo absolute left left-0"/>
-    <div class="hp_header_txt white absolute">
-      <h1>Frontend</h1>
-      <h1>Backend</h1>
-    </div>
-    <div class="hp_header_nav absolute white textright">
-      <p><router-link to="/">About</router-link></p>
-      <p><router-link to="/">Referenzen</router-link></p>
-    </div>
-    <img src="../../assets/img/header/hp_header_img_bg.jpg" alt="" class="hp_header_img_bg absolute object-fit-cover" />
+    <span id="programinstalled" style="white-space: pre"></span>
+    <span id="installingprogress" style="white-space: pre"></span>
   </div>
 </template>
 
 <script>
-  export default {
-    mounted: () => {
-      document.querySelector('.hp_header_txt').style.transform = "translateX(-100%)"
-      document.querySelector('.hp_header_nav').style.transform = "translateX(300%)"
-      setTimeout(() => {
-        document.querySelector('.hp_header_nav').style.transform = "translateX(0)"
-        document.querySelector('.hp_header_txt').style.transform = "translateX(0)"
-      }, 500);
-    }
-  }
+import Typed from 'typed.js';
+export default {
+  mounted: () => {
+    var typed = new Typed("#programinstalled", {
+      strings: ['npm install <strong>www.blackdayz.de</strong> ^1300\n `<b>[200]</b> Source found...` ^1300\n `installing components...` ^1000\n `Fetching from source...` ^2000\n '],
+      typeSpeed: 30,
+      loop: false
+    });
+    setTimeout(() => {
+      var typed2 = new Typed('#installingprogress',{
+        strings: ['Installing... 0%', 'Installing... 10%'],
+        typeSpeed: 0,
+        backSpeed: 0,
+        smartBackspace: true
+      })
+    }, 12000);
+  },
+};
 </script>
 
 <style scoped>
-@import url('../../assets/css/hp-header/hp-header.css');
+@import url("../../assets/css/hp-header/hp-header.css");
 </style>

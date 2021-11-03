@@ -10,11 +10,11 @@
     </div>
     <div class="hp-ref-line"></div>
     <div class="hp-ref-body" id="hp-ref-body">
-      <span v-if="refdata !== ''">{{ refdata }}</span>
-      <div class="hp-ref-ctn">
-        <p class="hp-ref-name"></p>
-        <button class="hp-ref-btn"></button>
+      <div class="hp-ref-ctn white center" v-for="data in refdata">
+          <p class="hp-ref-name bold">{{data.name}}</p>
+          <button class="hp-ref-btn">{{data.link}}</button>
       </div>
+      
     </div>
   </div>
 </template>
@@ -23,6 +23,7 @@
 import { isWebReferenz } from "../../assets/js/main";
 
 export default {
+  name: 'BlackDayz Homepage',
   data: () => {
     return {
       refdata: [],
@@ -38,8 +39,10 @@ export default {
           this.refdata = response;
         });
       }
+      this.updateImages();
       return;
     },
+
     updateweb(x) {
       if(x) {
         isWebReferenz(1, (response) => {
@@ -47,6 +50,7 @@ export default {
         });
       }
       if (document.getElementById("hp-ref-video").classList.contains("ref-selected") && x == undefined) {
+
         document.getElementById("hp-ref-web").classList.add("ref-selected");
         document.getElementById("hp-ref-video").classList.remove("ref-selected");
 
@@ -54,8 +58,17 @@ export default {
           this.refdata = response;
         });
       }
+      this.updateImages();
       return;
     },
+
+    updateImages() {
+
+      for(let i = 0; i < document.querySelectorAll('.hp-ref-ctn').length; i++) {
+        document.querySelectorAll('.hp-ref-ctn')[i].style.background = 'url(' + require('@/' + this.refdata[i].img + '') + ')';
+      }
+      
+    }
   },
   async mounted() {
     var observer = new IntersectionObserver(
@@ -72,7 +85,8 @@ export default {
     observer.observe(document.querySelector(".hp-ref-line"));
 
     await this.updateweb(1);
-  },
+    this.updateImages();
+  }
 };
 </script>
 

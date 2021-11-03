@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <img src="@/assets/img/homescreen/oldtvframe.png" class="oldtvframe" />
     <hpheader />
     <hpabout />
     <hpreferenzen />
