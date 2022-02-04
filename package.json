@@ -1,21 +1,27 @@
 {
-  "name": "blackdayzhomepage",
-  "version": "0.1.0",
-  "private": true,
+  "name": "blackdayz-homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "dev": "nodemon server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackDayz/BlackDayz-Homepage.git"
+  },
+  "author": "BlackDayz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlackDayz/BlackDayz-Homepage/issues"
+  },
+  "homepage": "https://github.com/BlackDayz/BlackDayz-Homepage#readme",
   "dependencies": {
-    "core-js": "^3.6.5",
-    "typed.js": "^2.0.12",
-    "vue": "^3.0.0",
-    "vue-router": "^4.0.0-0"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0"
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "nconf": "^0.11.3",
+    "nodemon": "^2.0.15"
   }
 }

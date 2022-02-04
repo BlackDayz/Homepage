@@ -1,0 +1,133 @@
+:root {
+  --white: rgb(226, 226, 226)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Whitney", sans-serif;
+  height: 100%;
+  background: #1e1e1e;
+}
+
+.top_page {
+  width: 100%;
+  height: 50vh;
+  background: var(--white);
+}
+
+.head_text {
+  text-align: center;
+
+  position: absolute;
+  left: 50%;
+  top: 20vh;
+
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.head_arrows {
+  text-align: center;
+  position: absolute;
+  top: 43vh;
+  left: 50%;
+
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.head_arrows img {
+  animation: head_arrow 1s infinite alternate;
+  -webkit-animation: head_arrow 1s infinite alternate;
+}
+
+@keyframes head_arrow {
+  0% {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+}
+
+  100% {
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+  }
+}
+
+.about_me {
+  padding: 90px 80px;
+  height: 100vh
+}
+
+.about_me_left {
+  width: 50%;
+  float: left;
+  padding: 150px 100px 0 100px;
+  font-weight: 520
+}
+
+.about_me_left p {
+  font-size: 1.6rem;
+  letter-spacing: 1.2px;
+}
+
+.about_me_right {
+  width: 50%;
+  float: right;
+}
+
+
+.references {
+  background: var(--white);
+}
+
+.references header {
+  padding: 50px;
+  letter-spacing: 5px;
+}
+
+.references header h2::after {
+  content: '';
+  width: 100px;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  margin-top: 40px;
+  transform: translateX(-50%);
+  background: black;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.ref_gif_top {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 50px 0;
+}
+
+#dev_funny_gif {
+  width: 600px;
+}
+
+.references main {
+  padding: 10px 0;
+}

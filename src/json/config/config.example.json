@@ -1,0 +1,18 @@
+{
+    "sessionSecret": "LGn2TkWg4nLnugerdwhaida8728a(WDWdt/AWDT7awdw7adgwa8dtvs5b49TCp15pqK4yvs5b49TCp15pq",
+    "domain": "192.168.1.210",
+    "port": "8888",
+    "cors": {
+        "headers": {
+            "Access-Control-Allow-Origin": "https://192.168.1.210",
+            "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+            "Access-Control-Allow-Headers": "Content-Type",
+            "Access-Control-Max-Age": 86400000000,
+            "withCredentials": true,
+            "Content-Type": "application/json"
+        }
+    },
+    "env": "development",
+    "routing": {
+    }
+}
