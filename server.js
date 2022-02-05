@@ -22,6 +22,6 @@ app.listen(serverconfig.get('port'), serverconfig.get('domain'), () => {
     }`);
 
     setInterval(() => {
-        console.log('server check')
+        console.log('server check', app.name, app.url)
     }, 5000)
 })
