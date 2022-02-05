@@ -20,9 +20,4 @@ app.listen(serverconfig.get('port'), serverconfig.get('domain'), () => {
     } server started on ${
         serverconfig.get('port')
     }`);
-
-    console.log(app);
-    setInterval(() => {
-        console.log('server check', app.name, app)
-    }, 5000)
 })
