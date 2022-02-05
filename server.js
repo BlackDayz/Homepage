@@ -16,8 +16,12 @@ require('./server/route/mainroute')(app)
 httpProxy.createProxyServer({target: `http://${serverconfig.get('domain')}:${serverconfig.get('port')}`}).listen(8000);
 app.listen(serverconfig.get('port'), () => {
     console.log(`${
-        serverconfig.get('server')
+        serverconfig.get('domain')
     } server started on ${
         serverconfig.get('port')
     }`);
+
+    setInterval(() => {
+        console.log('server check')
+    }, 5000)
 })
