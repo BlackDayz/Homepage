@@ -13,7 +13,7 @@ serverconfig.argv().env().file({file: './src/json/config/config.json'});
 require('./server-init')(app, express);
 require('./server/route/mainroute')(app)
 
-httpProxy.createProxyServer({target: `http://${serverconfig.get('domain')}:${serverconfig.get('port')}`}).listen(8000);
+//httpProxy.createProxyServer({target: `http://${serverconfig.get('domain')}:${serverconfig.get('port')}`}).listen(8000);
 app.listen(serverconfig.get('port'), serverconfig.get('domain'), () => {
     console.log(`${
         serverconfig.get('domain')
