@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "prod": "pm2 start server.js --name BlackDayzHomepage --max-memory-restart 300M"
+    "prod": "pm2 start server.js --name BlackDayzHomepage --max-memory-restart 300M && pm2 monit"
   },
   "repository": {
     "type": "git",
