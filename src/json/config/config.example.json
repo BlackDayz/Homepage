@@ -1,10 +1,10 @@
 {
-    "sessionSecret": "LGn2TkWg4nLnugerdwhaida8728a(WDWdt/AWDT7awdw7adgwa8dtvs5b49TCp15pqK4yvs5b49TCp15pq",
-    "domain": "192.168.1.210",
-    "port": "8888",
+    "sessionSecret": "",
+    "domain": "",
+    "port": "",
     "cors": {
         "headers": {
-            "Access-Control-Allow-Origin": "https://192.168.1.210",
+            "Access-Control-Allow-Origin": "https://",
             "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
             "Access-Control-Allow-Headers": "Content-Type",
             "Access-Control-Max-Age": 86400000000,
@@ -14,5 +14,22 @@
     },
     "env": "development",
     "routing": {
+        "homepage": "/",
+        "projects": {
+            "projects_main": "/projects",
+
+            "changerjs": "changerjs",
+            "easylogindesign": "easylogindesign",
+            "nobadvibes": "nobadvibes",
+            "phenixgameshomepage": "phenixgameshomepage",
+            "phenixgamesteam": "phenixgamesteam",
+            "prodbydaz": "prodbydaz",
+            "redesign": "redesign",
+            "subscriptor": "subscriptor",
+            "veryeasycalculator": "veryeasycalculator",
+            "cookieclicker": "cookiecliker"
+        },
+        "impressum": "impressum",
+        "privacy": "privacy"
     }
 }
