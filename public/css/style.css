@@ -198,13 +198,13 @@ footer {
   padding: 10px 0;
 }
 
-footer span::before {
-  content: '';
-  display: block;
-  margin: 10px 0 20px -100px;
-  width: 200%;
-  height: 2px;
-  background: var(--black);
+footer span {
+  display: flex;
+  justify-content: center;
+}
+
+footer span img {
+  margin: 0 10px;
 }
 
 .privacy,

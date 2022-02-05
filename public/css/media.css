@@ -32,9 +32,11 @@
     #my-slider {
         width: 90% !important;
     }
+
     .p_info {
         width: 100% !important;
     }
+
     .p_img {
         margin-top: -40%;
         width: 100% !important;
@@ -45,21 +47,24 @@
     .about_me {
         height: 150vh !important;
     }
+
     .about_me_left {
         width: 100% !important;
         padding: 0 0 0 0 !important;
     }
+
     .about_me_right {
         padding: 40px 0;
         width: 100% !important;
     }
+
     .card {
         margin: 0 !important;
     }
 
     #dev_funny_gif {
         width: 100% !important;
-      }
+    }
 }
 
 
@@ -79,7 +84,16 @@
     .grid-item p {
         font-size: 2rem;
     }
+
     #my-slider {
         width: 100% !important;
+    }
+
+    footer {
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
     }
 }
