@@ -14,7 +14,7 @@ require('./server-init')(app, express);
 require('./server/route/mainroute')(app)
 
 httpProxy.createProxyServer({target: `http://${serverconfig.get('domain')}:${serverconfig.get('port')}`}).listen(8000);
-app.listen(serverconfig.get('port'), () => {
+app.listen(serverconfig.get('port'), serverconfig.get('domain'), () => {
     console.log(`${
         serverconfig.get('domain')
     } server started on ${
