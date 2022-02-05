@@ -2,6 +2,7 @@
     "sessionSecret": "",
     "domain": "",
     "port": "",
+    "dc_name": "Mittelblut9#1974",
     "cors": {
         "headers": {
             "Access-Control-Allow-Origin": "https://",

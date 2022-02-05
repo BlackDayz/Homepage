@@ -4,13 +4,11 @@ Array.from(x).forEach(b => {
     b.style.backgroundImage  = `url('${b.dataset.img}')`
     b.style.backgroundPosition  = `center`;
     b.style.backgroundSize  = `cover`;
-    
-
-    // b.addEventListener('click', function () {
-    //     window.open(b.dataset.link);
-    // });
 });
 
-// document.getElementById('back').addEventListener('click', () => {
-//     window.close();
-// });
+document.getElementById('copy_dcname').addEventListener('click', () => {
+    const dc_name = "Mittelblut9#1974"
+    navigator.clipboard.writeText(dc_name).then(() => {
+        alert('Discord username copied');
+    }).catch(err => {return;})
+});

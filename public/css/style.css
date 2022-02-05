@@ -198,6 +198,15 @@ footer {
   padding: 10px 0;
 }
 
+footer span::before {
+  content: '';
+  display: block;
+  margin: 10px 0 20px -100px;
+  width: 200%;
+  height: 2px;
+  background: var(--black);
+}
+
 .privacy,
 .impressum {
   margin: 50px auto;
