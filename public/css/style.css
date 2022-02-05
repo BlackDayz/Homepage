@@ -7,6 +7,7 @@
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body,
@@ -19,7 +20,7 @@ html {
 
 .top_page {
   width: 100%;
-  height: 50vh;
+  height: 70vh;
   background: var(--white);
 }
 
@@ -28,7 +29,7 @@ html {
 
   position: absolute;
   left: 50%;
-  top: 10vh;
+  top: 20vh;
 
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
@@ -44,7 +45,7 @@ html {
 .head_arrows {
   text-align: center;
   position: absolute;
-  top: 35vh;
+  top: 55vh;
   left: 50%;
 
   transform: translateX(-50%);
