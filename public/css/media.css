@@ -53,6 +53,9 @@
         padding: 40px 0;
         width: 100% !important;
     }
+    .card {
+        margin: 0 !important;
+    }
 
     #dev_funny_gif {
         width: 100% !important;
