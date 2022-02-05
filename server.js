@@ -1,6 +1,5 @@
 const express = require('express');
 const serverconfig = require('nconf');
-const httpProxy = require('http-proxy');
 
 const app = express();
 app.use(express.static('public'));
@@ -13,7 +12,6 @@ serverconfig.argv().env().file({file: './src/json/config/config.json'});
 require('./server-init')(app, express);
 require('./server/route/mainroute')(app)
 
-//httpProxy.createProxyServer({target: `http://${serverconfig.get('domain')}:${serverconfig.get('port')}`}).listen(8000);
 app.listen(serverconfig.get('port'), serverconfig.get('domain'), () => {
     console.log(`${
         serverconfig.get('domain')
