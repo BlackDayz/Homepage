@@ -13,9 +13,9 @@ require('./server-init')(app, express);
 require('./server/route/mainroute')(app);
 
 app.listen(serverconfig.get('port'), serverconfig.get('domain'), () => {
-    console.log(`${
+    console.log(`http://${
         serverconfig.get('domain')
-    } server started on ${
+    }:${serverconfig.get('port')} server started on ${
         serverconfig.get('port')
     }`);
 });
