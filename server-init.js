@@ -22,12 +22,12 @@ module.exports = (app) => {
         res.header("Access-Control-Allow-Headers", nconf.get("cors:headers:Access-Control-Allow-Headers"));
         res.header("Access-Control-Max-Age", nconf.get('cors:headers:Access-Control-Max-Age'));
 
-        res.header("Strict-Transport-Security", "max-age=31536000; includeSubDomains; preload")
+        //res.header("Strict-Transport-Security", "max-age=31536000; includeSubDomains; preload")
 
         res.header("Content-Security-Policy", "default-src https:");
         res.header("Content-Security-Policy", "img-src *");
-        res.header("Content-Security-Policy", "style-src *")
-        res.header("Content-Security-Policy", "script-src *")
+        res.header("Content-Security-Policy", "style-src *");
+        res.header("Content-Security-Policy", "script-src *");
 
         res.header("withCredentials", nconf.get('cors:headers:withCredentials'));
         res.header("Content-Type", nconf.get('cors:headers:Content-Type'));
