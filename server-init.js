@@ -25,7 +25,7 @@ module.exports = (app) => {
         res.header("Content-Security-Policy", "default-src https:");
         res.header("Content-Security-Policy", "img-src *");
         res.header("Content-Security-Policy", "style-src *")
-        res.header("Content-Security-Policy", "script-src *")
+        res.header("Content-Security-Policy", "script-src 'unsafe-eval'")
 
         res.header("withCredentials", nconf.get('cors:headers:withCredentials'));
         res.header("Content-Type", nconf.get('cors:headers:Content-Type'));
