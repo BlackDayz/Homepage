@@ -12,7 +12,6 @@ module.exports = (app) => {
         saveUninitialized: true,
         cookie: {
             maxAge: 600000,
-            secure: true
         }
     }));
     app.use((req, res, next) => {
