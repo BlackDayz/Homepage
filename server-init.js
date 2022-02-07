@@ -21,7 +21,7 @@ module.exports = (app) => {
         res.header("Access-Control-Allow-Methods", nconf.get('cors:headers:Access-Control-Allow-Methods'));
         res.header("Access-Control-Allow-Headers", nconf.get("cors:headers:Access-Control-Allow-Headers"));
         res.header("Access-Control-Max-Age", nconf.get('cors:headers:Access-Control-Max-Age'));
-        res.header("Content-Security-Policy", "default-src 'self'")
+        res.header("Content-Security-Policy", "default-src https:")
         res.header("withCredentials", nconf.get('cors:headers:withCredentials'));
         res.header("Content-Type", nconf.get('cors:headers:Content-Type'));
         next();
