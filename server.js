@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 serverconfig.argv().env().file({file: './src/json/config/config.json'});
 
 require('./server-init')(app, express);
-require('./server/route/mainroute')(app)
+require('./server/route/mainroute')(app);
 
 app.listen(serverconfig.get('port'), serverconfig.get('domain'), () => {
     console.log(`${
@@ -18,4 +18,4 @@ app.listen(serverconfig.get('port'), serverconfig.get('domain'), () => {
     } server started on ${
         serverconfig.get('port')
     }`);
-})
+});
