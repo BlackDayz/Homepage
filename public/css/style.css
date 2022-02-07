@@ -5,9 +5,16 @@
   --black: #1e1e1e;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+  display: none;
+}
+
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-display: optional;
+  scrollbar-width: none;
 }
 
 body,
@@ -19,15 +26,11 @@ html {
 }
 
 .top_page {
-  width: 100%;
   height: 70vh;
   background: var(--white);
 }
 
 .head_text {
-  text-align: center;
-
-  position: absolute;
   left: 50%;
   top: 20vh;
 
@@ -40,11 +43,10 @@ html {
 
 .head_text h1 {
   font-size: 2.4rem;
+  letter-spacing: 3.4px;
 }
 
 .head_arrows {
-  text-align: center;
-  position: absolute;
   top: 55vh;
   left: 50%;
 
@@ -86,7 +88,6 @@ html {
 
 .about_me_left {
   width: 50%;
-  float: left;
   padding: 5% 100px 0 100px;
   font-weight: 520
 }
@@ -98,7 +99,6 @@ html {
 
 .about_me_right {
   width: 50%;
-  float: right;
 }
 
 .references {
@@ -126,8 +126,6 @@ html {
 }
 
 .ref_gif_top {
-  display: flex;
-  justify-content: center;
   padding: 50px 0 50px 0;
 }
 
@@ -193,14 +191,7 @@ html {
 }
 
 footer {
-  display: grid;
-  justify-content: center;
   padding: 10px 0;
-}
-
-footer span {
-  display: flex;
-  justify-content: center;
 }
 
 footer span img {
