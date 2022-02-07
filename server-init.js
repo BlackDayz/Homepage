@@ -11,7 +11,9 @@ module.exports = (app) => {
         resave: true,
         saveUninitialized: true,
         cookie: {
-            maxAge: 600000
+            maxAge: 600000,
+            SameSite: true,
+            secure: true
         }
     }));
     app.use((req, res, next) => {
