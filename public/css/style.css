@@ -176,6 +176,7 @@ html {
   margin: 0 0 0 20px;
 }
 
+
 .p_img{
   width: 50%;
   float: right;
@@ -184,10 +185,15 @@ html {
 }
 
 .p_img img:first-of-type,
-.p_img video {
+.p_img video,
+.p_img iframe {
   margin: 200px 0 0 0;
   width: 100%;
   border: 6px solid black;
+}
+
+.p_img iframe {
+  height: 60vh;
 }
 
 footer {
