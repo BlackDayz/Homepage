@@ -20,6 +20,9 @@
     .about_me_left {
         padding: 0 50px 0 10px !important;
     }
+    .p_detail header p {
+        top: 40vh !important;
+    }
 }
 
 @media only screen and (max-width: 731px) {
@@ -38,7 +41,7 @@
     }
 
     .p_img {
-        margin-top: -40%;
+        margin-top: 0;
         width: 100% !important;
     }
 }

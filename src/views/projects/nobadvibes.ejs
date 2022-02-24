@@ -1,44 +1,56 @@
 <!DOCTYPE html>
 <html lang="de">
+
     <head>
         <%- include('../_head/head.ejs') %>
-        <title>nobadVIBES (Shop)</title>
-        <link href="../css/style.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://use.typekit.net/xue1nky.css">
+            <title>nobadVIBES (Shop)</title>
+            <link href="../css/style.css" rel="stylesheet" />
+            <link rel="stylesheet" href="https://use.typekit.net/xue1nky.css">
     </head>
+
     <body>
         <div class="p_detail">
-            <div class="p_info">
-                <a href="../" id="back">back</a>
-                <h1>nobadVIBES (Fake-Shop, Showcase)</h1>
+            <a href="../" id="back">back</a>
+            <header>
+                <h1 class="absolute">nobadVIBES (Fake-Shop, Showcase)</h1>
+                <p class="absolute"><img src="https://img.icons8.com/offices/48/000000/php-logo.png" title="php" /></p>
+            </header>
+            
+            <main class="p_info">
                 <h4>Die Grundidee ...</h4>
                 <p>
-                    ... hinter diesem Shop war, dass ein Klassenkamerad seine Kleidungermarke wie ein normaler Shop anbieten kann. <br />
-                    Hat sich einfach angehört, damals. Nach <strong>73 Stunden</strong> Entwicklungszeit wurde daran nicht mehr weitergearbeitet.
-                    Viele Design- und Codebugs und das mit der Daten- und Codesicherheit ist auch nicht so das non-plus-ultra.<br />
-                    Aber es war auch das erste mal, dass ich einen Shop entwickelt habe und musste mir deshalb alles selber beibringen; So wie alles was ich gemacht habe auch.
+                    ... hinter diesem Shop war, dass ein Klassenkamerad seine Kleidungermarke wie ein normaler Shop
+                    anbieten kann. <br />
+                    Hat sich einfach angehört, damals. Nach <strong>73 Stunden</strong> Entwicklungszeit wurde daran
+                    nicht mehr weitergearbeitet.
+                    Viele Design- und Codebugs und das mit der Daten- und Codesicherheit ist auch nicht so das
+                    non-plus-ultra.<br />
+                    Aber es war auch das erste mal, dass ich einen Shop entwickelt habe und musste mir deshalb alles
+                    selber beibringen; So wie alles was ich gemacht habe auch.
                 </p>
                 <h4>Die Dokumentation</h4>
-                <p style="text-align: left;">
+                <p class="text-left">
                     <strong>Logindaten:</strong> admin - admin<br /> <br />
                     <strong>Hinzufügen von Produkten:</strong> <br />
-                    Im Internenbereich unter "Produkten" rechts unten auf das Plus. Dateneingeben (Required: Bild 1, Bild 2, Name, Artikelbeschreibung, Preis).<br />
+                    Im Internenbereich unter "Produkten" rechts unten auf das Plus. Dateneingeben (Required: Bild 1,
+                    Bild 2, Name, Artikelbeschreibung, Preis).<br />
                     <strong>Bearbeiten von Produkten:</strong> <br />
                     Auf das Produkt drauf drücken und die Daten bearbeiten.
                     <strong>Bearbeiten von Kollektionen:</strong> <br />
-                    Auf den Namen der Kollektionen drücken. Bilder hinzufügen (ganz unten) -> Bilder speichern drücken. Aktivieren oder Deaktiviern / Löschen.
+                    Auf den Namen der Kollektionen drücken. Bilder hinzufügen (ganz unten) -> Bilder speichern drücken.
+                    Aktivieren oder Deaktiviern / Löschen.
                 </p>
                 <div class="p_links">
-                    <img src="https://img.icons8.com/material-rounded/48/000000/external-link.png"/><h5><a href="https://mecksauer.de/projects/nobadVIBES/">Webseite</a></h5>
-                    <img src="https://img.icons8.com/color/48/000000/code.png"/><h5><a href="https://github.com/BlackDayz/nobadVIBES">GitHub</a></h5>
-                </div>
-                <h4>Entwickelt mit:</h4>
-                <p><img src="https://img.icons8.com/offices/48/000000/php-logo.png" title="php"/></p>
-
-            </div>
-            <div class="p_img">
+                    <img src="https://img.icons8.com/material-rounded/48/000000/external-link.png" />
+                    <h5><a href="https://mecksauer.de/projects/nobadVIBES/">Webseite</a></h5>
+                    <img src="https://img.icons8.com/color/48/000000/code.png" />
+                    <h5><a href="https://github.com/BlackDayz/nobadVIBES">GitHub</a></h5>
+                </div>  
+            </main>
+            <footer class="p_img">
                 <img src="../img/projects/nobadvibes.png" />
-            </div>
+            </footer>
         </div>
     </body>
+
 </html>
