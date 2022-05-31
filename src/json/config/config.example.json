@@ -33,6 +33,12 @@
             "la_campana_unofficial_design": "la_campana_unofficial_design"
         },
         "impressum": "impressum",
-        "privacy": "privacy"
+        "privacy": "privacy",
+        "mittelbot": {
+            "changelog": "mittelbot/changelog"
+        }
+    },
+    "external_links": {
+        "mittelbot_changelog": "https://github.com/Mittelbots/Mittelbot-Issues-and-Requests/blob/115d67eb631af2e9de280100b8a34b7ea286eb57/CHANGELOG.md"
     }
 }
