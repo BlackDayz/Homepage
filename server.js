@@ -17,7 +17,7 @@ require('./server-init')(app, express);
 require('./subdomains')(app, midoroute);
 require('./server/route/mainroute')(app, express);
 
-app.use(subdomain('mido', midoroute));
+app.use(subdomain('mido', mainroute));
 
 app.listen(serverconfig.get('port'), serverconfig.get('domain'), () => {
     console.log(`http://${
