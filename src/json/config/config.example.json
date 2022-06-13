@@ -13,6 +13,9 @@
             "Content-Type": "application/json"
         }
     },
+    "domains": {
+        "mido": "mido.blackdayz.de"
+    },
     "env": "development",
     "routing": {
         "homepage": "/",
@@ -42,7 +45,7 @@
         }
     },
     "external_links": {
-        "mittelbot_changelog": "https://github.com/Mittelbots/Mittelbot-Issues-and-Requests/blob/115d67eb631af2e9de280100b8a34b7ea286eb57/CHANGELOG.md",
+        "mittelbot_changelog": "https://github.com/Mittelbots/Mittelbot-Issues-and-Requests/blob/main/CHANGELOG.md",
         "blacklist_invite": "https://discord.com/api/oauth2/authorize?client_id=973683659666235482&permissions=67652&scope=bot%20applications.commands"
     }
 }

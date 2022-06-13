@@ -3,3 +3,11 @@ src/json/config/config.json
 
 .htaccess
 .git/
+
+
+
+#==============================================================================
+
+
+#SUB DOMAINS
+mido-website/
