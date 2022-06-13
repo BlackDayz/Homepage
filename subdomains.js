@@ -1,10 +1,7 @@
-const vhost = require('vhost');
 const nconf = require('nconf');
 
-module.exports = (app) => {
-    app.use(vhost(nconf.get('domains:mido'), (req, res) => {
-        res.json({
-            message: 'Hello from Mido'
-        })
-    }))
+module.exports = (app, midoroute) => {
+    midoroute.get('/', (req, res) => {
+        res.send('API - version 1');
+    })
 }

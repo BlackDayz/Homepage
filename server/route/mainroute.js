@@ -1,4 +1,4 @@
-module.exports = (app) => {
+module.exports = (app, express) => {
     require('./sideroute/homepage-route')(app);
     require('./sideroute/projects-route')(app);
     require('./sideroute/legal-route')(app);
