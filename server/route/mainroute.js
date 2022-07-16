@@ -3,5 +3,6 @@ module.exports = (app, express) => {
     require('./sideroute/projects-route')(app);
     require('./sideroute/legal-route')(app);
     require('./sideroute/mittelbot-route')(app);
+    require('./sideroute/mido-route')(app);
     require('./sideroute/blacklist-route')(app);
 }

@@ -1,0 +1,36 @@
+.navbar {
+    width: 100%;
+    padding: 0 10rem;
+}
+
+.mx-9 {
+    margin-left: 9rem !important;
+}
+
+@media screen and (max-width: 768px) {
+    .mx-9 {
+        margin-left: inherit !important;
+    }
+}
+
+#features > div:nth-child(2) > div.columns.mt-6 > div.column.mr-6.mx-9 > h4,
+#features > div:nth-child(3) > div.columns.mt-6 > div:nth-child(2) > h4,
+#features > div:nth-child(4) > div.columns.mt-6 > div.column.mr-6.mx-9 > h4 {
+    max-width: 70% !important;
+}
+
+.top_left ul li,
+.perms_list li,
+.log_list li {
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    margin-top: 1.2rem;
+}
+
+.top_left ul li img,
+.perms_list li img,
+.log_list li img {
+    width: 20px;
+    margin-inline-end: 8px;
+}
