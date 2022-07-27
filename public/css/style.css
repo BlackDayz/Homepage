@@ -106,16 +106,19 @@ a {
   width: 50%;
 }
 
-.references {
+.references,
+.my-bots {
   background: var(--white);
 }
 
-.references header {
+.references header,
+.my-bots header {
   padding: 50px;
   letter-spacing: 5px;
 }
 
-.references header h2::after {
+.references header h2::after,
+.my-bots header h2::after {
   content: '';
   width: 100px;
   height: 2px;
@@ -130,11 +133,13 @@ a {
   -o-transform: translateX(-50%);
 }
 
-.ref_gif_top {
+.ref_gif_top,
+.bots_gif_top {
   padding: 50px 0 50px 0;
 }
 
-#dev_funny_gif {
+#dev_funny_gif,
+#dc_funny_gif {
   width: 600px;
 }
 
@@ -154,4 +159,12 @@ footer span img {
 .impressum {
   margin: 50px auto;
   width: 50%;
+}
+
+.bot-showcase a {
+  margin: 50px auto;
+}
+
+.bot-showcase a img {
+  width: 300px;
 }

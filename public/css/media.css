@@ -4,9 +4,18 @@
     }
 }
 
-@media only screen and (max-width: 1123px) {
+@media only screen and (max-width: 1124px) {
     .about_me_left {
         padding: 0 100px 0 50px !important;
+    }
+    .bot-showcase {
+        display: grid !important;
+    }
+    .bot-showcase img {
+        width: 80% !important;
+    }
+    .bots_gif_top img {
+        width: 80% !important;
     }
 }
 
