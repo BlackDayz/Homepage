@@ -1,6 +1,6 @@
 const nconf = require('nconf');
 
-module.exports = (app) => {
+module.exports = ({app}) => {
     app.get('/'+nconf.get('routing:mido:changelog'), async (req, res) => {
         res.redirect(nconf.get('routing:mido:support'));
     });
