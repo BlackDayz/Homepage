@@ -12,6 +12,7 @@ module.exports = ({app}) => {
             'Content-Length': stat.size,
             "Access-Control-Allow-Origin": "*",
             "Access-Control-Allow-Methods": "GET",
+            "Access-Control-Allow-Headers": "Content-Type",
         });
 
         const readStream = fs.createReadStream(filePath);
