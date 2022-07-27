@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "prod": "pm2 start server.js --name BlackDayzHomepage --max-memory-restart 300M && pm2 monit",
+    "prod": "pm2 start server.js --name BlackDayzHomepage --max-memory-restart 300M && pm2 logs",
     "kill": "pm2 delete BlackDayzHomepage",
     "restart": "npm run kill && npm run prod"
   },

@@ -9,7 +9,8 @@ module.exports = ({app}) => {
 
         res.writeHead(200, {
             'Content-Type': 'text/css',
-            'Content-Length': stat.size
+            'Content-Length': stat.size,
+            "Access-Control-Allow-Origin": "*"
         });
 
         const readStream = fs.createReadStream(filePath);
