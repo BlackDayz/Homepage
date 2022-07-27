@@ -9,7 +9,9 @@ module.exports = ({app}) => {
 
         res.writeHead(200, {
             'Content-Type': 'image/png',
-            'Content-Length': stat.size
+            'Content-Length': stat.size,
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "GET",
         });
 
         const readStream = fs.createReadStream(filePath);
