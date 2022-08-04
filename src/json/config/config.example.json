@@ -1,7 +1,7 @@
 {
     "sessionSecret": "",
     "domain": "",
-    "port": "",
+    "port": "8080",
     "dc_name": "Mittelblut9#1974",
     "cors": {
         "headers": {
@@ -10,42 +10,79 @@
             "Access-Control-Allow-Headers": "Content-Type",
             "Access-Control-Max-Age": 86400000000,
             "withCredentials": true,
-            "Content-Type": "application/json"
+            "Content-Type": "text/html"
         }
     },
     "domains": {
-        "mido": "mido.blackdayz.de"
+        "mido": ""
     },
     "env": "development",
     "routing": {
-        "homepage": "/",
-        "projects": {
-            "projects_main": "/projects",
-
-            "changerjs": "changerjs",
-            "easylogindesign": "easylogindesign",
-            "nobadvibes": "nobadvibes",
-            "phenixgameshomepage": "phenixgameshomepage",
-            "phenixgamesteam": "phenixgamesteam",
-            "prodbydaz": "prodbydaz",
-            "redesign": "redesign",
-            "subscriptor": "subscriptor",
-            "veryeasycalculator": "veryeasycalculator",
-            "cookieclicker": "cookieclicker",
-            "mittelbot": "mittelbot",
-            "la_campana_unofficial_design": "la_campana_unofficial_design"
+        "homepage": {
+            "path": "/",
+            "name": "homepage"
         },
-        "impressum": "impressum",
-        "privacy": "privacy",
+        "projects": {
+            "path": "/projects",
+            "name": "projects"
+        },
+        "impressum": {
+            "path": "/impressum",
+            "name": "legal"
+        },
+        "privacy": {
+            "path": "/privacy",
+            "name": "legal"
+        },
         "mittelbot": {
-            "changelog": "mittelbot/changelog"
+            "name": "mittelbot",
+            "homepage": "mittelbot",
+            "support_link": ""
+        },
+        "mido": {
+            "name": "mido",
+            "homepage": "mido",
+            "support_link": ""
         },
         "blacklist": {
+            "name": "blacklist",
             "invite": "blacklist"
         }
     },
+    "allprojects": {
+        "changerjs": "changerjs",
+        "easylogindesign": "easylogindesign",
+        "nobadvibes": "nobadvibes",
+        "phenixgameshomepage": "phenixgameshomepage",
+        "phenixgamesteam": "phenixgamesteam",
+        "prodbydaz": "prodbydaz",
+        "redesign": "redesign",
+        "subscriptor": "subscriptor",
+        "veryeasycalculator": "veryeasycalculator",
+        "cookieclicker": "cookieclicker",
+        "mittelbot": "mittelbot",
+        "la_campana_unofficial_design": "la_campana_unofficial_design"
+    },
     "external_links": {
-        "mittelbot_changelog": "https://github.com/Mittelbots/Mittelbot-Issues-and-Requests/blob/main/CHANGELOG.md",
-        "blacklist_invite": "https://discord.com/api/oauth2/authorize?client_id=973683659666235482&permissions=67652&scope=bot%20applications.commands"
+        "mittelbot_changelog": "",
+        "blacklist_invite": ""
+    },
+    "utils": {
+        "logo": {
+            "name": "logo",
+            "path": "img/logo"
+        },
+        "changerjs": {
+            "name": "changerjs",
+            "path": "js/changerjs"
+        },
+        "blackcss": {
+            "name": "blackcss",
+            "path": "css/blackcss"
+        },
+        "phenixgames_logo": {
+            "name": "phenixgames",
+            "path": "img/pg_logo"
+        }
     }
 }
