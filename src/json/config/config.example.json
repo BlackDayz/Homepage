@@ -83,6 +83,10 @@
         "phenixgames_logo": {
             "name": "phenixgames",
             "path": "img/pg_logo"
+        },
+        "mittelbot_logo": {
+            "name": "mittelbot",
+            "path": "img/mittelbot_logo"
         }
     }
 }
