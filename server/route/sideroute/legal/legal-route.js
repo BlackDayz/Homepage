@@ -1,11 +1,11 @@
 const nconf = require('nconf');
 
-module.exports = ({app}) => {
+module.exports = ({ app }) => {
     app.get(nconf.get('routing:impressum:path'), async (req, res) => {
-        res.render('legal/impressum')
+        res.render('legal/impressum');
     });
 
     app.get(nconf.get('routing:privacy:path'), async (req, res) => {
-        res.render('legal/privacy')
+        res.render('legal/privacy');
     });
-}
+};

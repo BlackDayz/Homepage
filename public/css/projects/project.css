@@ -1,7 +1,7 @@
 #back {
     position: absolute;
-    left:10px;
-    top:10px
+    left: 10px;
+    top: 10px;
 }
 
 .p_detail header {
@@ -72,7 +72,6 @@
 .p_links img {
     margin: 0 0 0 20px;
 }
-
 
 .p_img {
     width: 50%;

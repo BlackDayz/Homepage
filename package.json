@@ -1,31 +1,36 @@
 {
-  "name": "blackdayz-homepage",
-  "version": "1.1.1",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon server.js",
-    "prod": "pm2 start server.js --name BlackDayzHomepage --max-memory-restart 300M && pm2 logs",
-    "kill": "pm2 delete BlackDayzHomepage",
-    "restart": "npm run kill && npm run prod"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BlackDayz/BlackDayz-Homepage.git"
-  },
-  "author": "BlackDayz",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BlackDayz/BlackDayz-Homepage/issues"
-  },
-  "homepage": "https://github.com/BlackDayz/BlackDayz-Homepage#readme",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "ejs": "^3.1.7",
-    "express": "^4.17.2",
-    "express-session": "^1.17.2",
-    "express-subdomain": "^1.0.5",
-    "nconf": "^0.12.0",
-    "nodemon": "^2.0.20"
-  }
+    "name": "blackdayz-homepage",
+    "version": "1.1.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "prod": "pm2 start server.js --name BlackDayzHomepage --max-memory-restart 300M && pm2 logs",
+        "kill": "pm2 delete BlackDayzHomepage",
+        "restart": "npm run kill && npm run prod",
+        "format": "prettier --write . --bracket-same-line=true",
+        "check": "prettier --check . --bracket-same-line=true"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BlackDayz/BlackDayz-Homepage.git"
+    },
+    "author": "BlackDayz",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/BlackDayz/BlackDayz-Homepage/issues"
+    },
+    "homepage": "https://github.com/BlackDayz/BlackDayz-Homepage#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "ejs": "^3.1.7",
+        "express": "^4.17.2",
+        "express-session": "^1.17.2",
+        "express-subdomain": "^1.0.5",
+        "nconf": "^0.12.0"
+    },
+    "devDependencies": {
+        "prettier": "^2.7.1",
+        "nodemon": "^2.0.20"
+    }
 }

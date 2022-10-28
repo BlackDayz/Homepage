@@ -79,7 +79,6 @@
     }
 }
 
-
 @media only screen and (max-width: 1024px) {
     .grid-container {
         grid-template-columns: 50% 50%;
