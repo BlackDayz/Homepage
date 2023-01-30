@@ -4,6 +4,8 @@ const subdomain = require('express-subdomain');
 
 const config = require('./src/json/config/config.json');
 
+require('dotenv').config();
+
 const app = express();
 app.use(express.static('public'));
 
@@ -23,10 +25,8 @@ require('./server/route/mainroute')({ app });
 
 app.use(subdomain('mido', mainroute));
 
-app.listen(serverconfig.get('port'), serverconfig.get('domain'), () => {
+app.listen(process.env.APP_PORT, serverconfig.get(process.env.APP_DOMAIN), () => {
     console.log(
-        `http://${serverconfig.get('domain')}:${serverconfig.get(
-            'port'
-        )} server started on ${serverconfig.get('port')}`
+        `http://${process.env.APP_DOMAIN}:${process.env.APP_PORT} server started on ${process.env.APP_PORT}`
     );
 });

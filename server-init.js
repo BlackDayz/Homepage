@@ -8,7 +8,7 @@ module.exports = (app) => {
     app.use(cors());
     app.use(
         session({
-            secret: nconf.get('sessionSecret'),
+            secret: process.env.SESSION_SECRET,
             resave: true,
             saveUninitialized: true,
             cookie: {
@@ -21,7 +21,7 @@ module.exports = (app) => {
     app.use((req, res, next) => {
         res.header(
             'Access-Control-Allow-Origin',
-            nconf.get('cors:headers:Access-Control-Allow-Origin')
+            `${process.env.APP_PROTOCOL}://${process.env.APP_DOMAIN}`
         );
         res.header(
             'Access-Control-Allow-Methods',
@@ -32,8 +32,6 @@ module.exports = (app) => {
             nconf.get('cors:headers:Access-Control-Allow-Headers')
         );
         res.header('Access-Control-Max-Age', nconf.get('cors:headers:Access-Control-Max-Age'));
-
-        //res.header("Strict-Transport-Security", "max-age=31536000; includeSubDomains; preload")
 
         res.header('Content-Security-Policy', 'default-src https:');
         res.header('Content-Security-Policy', 'img-src *');

@@ -1,5 +1,4 @@
 node_modules/
-src/json/config/config.json
 
 .htaccess
 .git/
@@ -7,3 +6,5 @@ src/json/config/config.json
 ._*
 
 .vscode/
+
+.env
