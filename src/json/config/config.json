@@ -1,11 +1,7 @@
 {
-    "sessionSecret": "",
-    "domain": "",
-    "port": "8080",
     "dc_name": "Mittelblut9#1974",
     "cors": {
         "headers": {
-            "Access-Control-Allow-Origin": "https://",
             "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
             "Access-Control-Allow-Headers": "Content-Type",
             "Access-Control-Max-Age": 86400000000,
@@ -37,16 +33,21 @@
         "mittelbot": {
             "name": "mittelbot",
             "homepage": "mittelbot",
-            "support_link": ""
+            "support_link": "https://discord.gg/5d5ZDFQM4E"
         },
         "mido": {
             "name": "mido",
             "homepage": "mido",
-            "support_link": ""
+            "support_link": "https://discord.gg/5d5ZDFQM4E"
         },
         "blacklist": {
             "name": "blacklist",
             "invite": "blacklist"
+        },
+        "fiver": {
+            "path": "/fiver",
+            "name": "fiver",
+            "redirect": "https://www.fiverr.com/blackdayzz"
         }
     },
     "allprojects": {
@@ -64,8 +65,8 @@
         "la_campana_unofficial_design": "la_campana_unofficial_design"
     },
     "external_links": {
-        "mittelbot_changelog": "",
-        "blacklist_invite": ""
+        "mittelbot_changelog": "https://github.com/Mittelbots/Mittelbot-Issues-and-Requests/blob/main/CHANGELOG.md",
+        "blacklist_invite": "https://discord.com/api/oauth2/authorize?client_id=973683659666235482&permissions=67652&scope=bot%20applications.commands"
     },
     "utils": {
         "logo": {
