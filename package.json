@@ -28,7 +28,8 @@
         "express": "^4.18.2",
         "express-session": "^1.17.2",
         "express-subdomain": "^1.0.5",
-        "nconf": "^0.12.0"
+        "nconf": "^0.12.0",
+        "vanta": "^0.5.24"
     },
     "devDependencies": {
         "nodemon": "^2.0.20",
