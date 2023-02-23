@@ -1,0 +1,74 @@
+{
+    "dc_name": "Mittelblut9#1974",
+    "cors": {
+        "headers": {
+            "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+            "Access-Control-Allow-Headers": "Content-Type",
+            "Access-Control-Max-Age": 86400000000,
+            "withCredentials": true,
+            "Content-Type": "text/html"
+        }
+    },
+    "domains": {
+        "mido": ""
+    },
+    "env": "development",
+    "routing": {
+        "homepage": {
+            "path": "/",
+            "name": "homepage"
+        },
+        "projects": {
+            "path": "/projects",
+            "name": "projects"
+        },
+        "impressum": {
+            "path": "/impressum",
+            "name": "legal"
+        },
+        "privacy": {
+            "path": "/privacy",
+            "name": "legal"
+        },
+        "mittelbot": {
+            "name": "mittelbot",
+            "homepage": "mittelbot",
+            "support_link": "https://discord.gg/5d5ZDFQM4E"
+        },
+        "mido": {
+            "name": "mido",
+            "homepage": "mido",
+            "support_link": "https://discord.gg/5d5ZDFQM4E"
+        },
+        "blacklist": {
+            "name": "blacklist",
+            "invite": "blacklist"
+        }
+    },
+    "external_links": {
+        "mittelbot_changelog": "https://github.com/Mittelbots/Mittelbot-Issues-and-Requests/blob/main/CHANGELOG.md",
+        "blacklist_invite": "https://discord.com/api/oauth2/authorize?client_id=973683659666235482&permissions=67652&scope=bot%20applications.commands"
+    },
+    "utils": {
+        "logo": {
+            "name": "logo",
+            "path": "img/logo"
+        },
+        "changerjs": {
+            "name": "changerjs",
+            "path": "js/changerjs"
+        },
+        "blackcss": {
+            "name": "blackcss",
+            "path": "css/blackcss"
+        },
+        "phenixgames_logo": {
+            "name": "phenixgames",
+            "path": "img/pg_logo"
+        },
+        "mittelbot_logo": {
+            "name": "mittelbot",
+            "path": "img/mittelbot_logo"
+        }
+    }
+}
