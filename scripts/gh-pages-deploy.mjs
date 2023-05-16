@@ -4,6 +4,10 @@ import { execSync } from "child_process";
 (async () => {
   try {
     execSync("git checkout --orphan gh-pages");
+  } catch (e) {
+    execSync("git checkout gh-pages");
+  }
+  try {
     console.log("Building started...");
     execSync("npm run build");
     const folderName = "dist";

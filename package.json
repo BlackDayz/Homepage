@@ -9,7 +9,7 @@
         "lint": "vue-cli-service lint",
         "format": "prettier --write . --bracket-same-line=true",
         "check": "prettier --check . --bracket-same-line=true",
-        "deploy": "node scripts/gh-pages-deploy.js"
+        "deploy": "node scripts/gh-pages-deploy.mjs"
     },
     "dependencies": {
         "pretier": "^0.0.1",
