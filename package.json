@@ -8,7 +8,8 @@
         "test:unit": "vue-cli-service test:unit",
         "lint": "vue-cli-service lint",
         "format": "prettier --write . --bracket-same-line=true",
-        "check": "prettier --check . --bracket-same-line=true"
+        "check": "prettier --check . --bracket-same-line=true",
+        "deploy": "node scripts/gh-pages-deploy.js"
     },
     "dependencies": {
         "pretier": "^0.0.1",
@@ -29,7 +30,8 @@
         "eslint-plugin-prettier": "^4.0.0",
         "eslint-plugin-vue": "^8.0.3",
         "jest": "^27.0.5",
-        "prettier": "^2.4.1"
+        "prettier": "^2.4.1",
+        "execa": "^7.1.1"
     },
     "eslintConfig": {
         "root": true,
