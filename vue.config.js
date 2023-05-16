@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'Production' ? '/BlackDayz-Homepage/' : '/'
+  publicPath: process.env.NODE_ENV === 'production' ? '/BlackDayz-Homepage/' : '/'
 }
