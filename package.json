@@ -7,8 +7,8 @@
         "build": "vue-cli-service build",
         "test:unit": "vue-cli-service test:unit",
         "lint": "vue-cli-service lint",
-        "format": "prettier --write . --bracket-same-line=true",
-        "check": "prettier --check . --bracket-same-line=true"
+        "format": "prettier --write . --single-quote --bracket-same-line=true",
+        "check": "prettier --check . --single-quote --bracket-same-line=true"
     },
     "dependencies": {
         "pretier": "^0.0.1",
