@@ -4,7 +4,6 @@
 </template>
 
 <style>
-@import url('https://blackdayz.de/css/blackcss');
 @import url('@/assets/css/style.css');
 @import url('@/assets/css/media.css');
 @import url('@/assets/font/style.css');
