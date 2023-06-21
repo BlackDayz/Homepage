@@ -24,14 +24,6 @@
                         <h3>Mido</h3>
                     </div>
                 </a>
-                <a href="/blacklist" class="link">
-                    <div class="bot">
-                        <img
-                            :src="require('@/assets/img/projects/bots/bot_blacklist.jpg')"
-                            alt="Mittelbot Logo" />
-                        <h3>Blacklist</h3>
-                    </div>
-                </a>
             </div>
         </header>
     </div>
