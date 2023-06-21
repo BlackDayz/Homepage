@@ -84,6 +84,14 @@
                 /></a>
                 <h1 class="work_name">Cookie Clicker</h1>
             </div>
+            <div class="work">
+                <a href="/projects?work=derduemmstefliegt"
+                    ><img
+                        :src="require('@/assets/img/projects/der_duemmste_fliegt_waitroom.png')"
+                        width="100%"
+                /></a>
+                <h1 class="work_name">Der D&uuml;mmste fliegt</h1>
+            </div>
         </main>
     </div>
 </template>

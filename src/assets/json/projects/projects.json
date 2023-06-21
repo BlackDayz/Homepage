@@ -259,5 +259,31 @@
                 "src": "/img/projects/veryeasycalculator.png"
             }
         ]
+    },
+    "derduemmstefliegt": {
+        "name": "Der Dümmste fliegt",
+        "description": "... hinter diesem Projekt, steckt ein Spiel, das von vielen großen Streamern in ihren Streams gespielt wird. Nachdem ich die etwas abgegoofte Version von Rumathra gesehen habe, wollte ich das Game intuitiv und einfach nachbauen. Daraus ist das hier entstanden - Auch wenn es (noch) nicht fertig ist.",
+        "tecstack": ["vue"],
+        "links": [
+            {
+                "icon": "https://img.icons8.com/color/48/000000/code.png",
+                "link": "https://github.com/Mittelblut9/der-duemste-fliegt",
+                "name": "GitHub"
+            }
+        ],
+        "footer": [
+            {
+                "isImg": true,
+                "src": "/img/projects/der_duemmste_fliegt_createdRoom.png"
+            },
+            {
+                "isImg": true,
+                "src": "/img/projects/der_duemmste_fliegt_waitroom.png"
+            },
+            {
+                "isImg": true,
+                "src": "/gif/der_duemmste_fliegt_homepage_video.gif"
+            }
+        ]
     }
 }
