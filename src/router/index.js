@@ -25,7 +25,7 @@ const routes = [
         name: 'mittelbot',
         path: '/mittelbot',
         beforeEnter: () => {
-            location.href = 'https://mittelbot.blackdayz.de';
+            location.href = 'https://mittelbot.xyz';
         },
     },
     {

@@ -115,7 +115,7 @@
         "links": [
             {
                 "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
-                "link": "https://mittelbot.blackdayz.de",
+                "link": "https://mittelbot.xyz",
                 "name": "Webseite"
             },
             {
@@ -125,7 +125,7 @@
             },
             {
                 "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
-                "link": "https://mittelbot.blackdayz.de/invite",
+                "link": "https://mittelbot.xyz/invite",
                 "name": "Discord Invite"
             }
         ],
