@@ -308,5 +308,23 @@
                 "src": "/img/projects/no_unfollow_twitch_example.png"
             }
         ]
+    },
+    "voteplus": {
+        "name": "VotePlus Shopware Plugin",
+        "description": "... hinter diesem Projekt, ist ein Shopware 5 Plugin, welches ich im Rahmen der ersten Wochen meiner Ausbildung entwickelt habe. Es dient dazu, dass Kunden die Möglichkeit haben, Produkte zu bewerten und diese Bewertungen dann auch zu sehen.",
+        "tecstack": ["php"],
+        "links": [
+            {
+                "icon": "https://img.icons8.com/color/48/000000/code.png",
+                "link": "https://github.com/Mittelblut9/VotePlus",
+                "name": "GitHub"
+            }
+        ],
+        "footer": [
+            {
+                "isImg": true,
+                "src": "/img/projects/shopware_logo.png"
+            }
+        ]
     }
 }
