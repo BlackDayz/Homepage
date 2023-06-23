@@ -1,4 +1,8 @@
-# blackdayz-homepage2
+# BlackDayz Homepage
+
+The official homepage of BlackDayz.
+
+[www.blackdayz.de](https://www.blackdayz.de)
 
 ## Project setup
 
@@ -16,18 +20,6 @@ npm run serve
 
 ```
 npm run build
-```
-
-### Run your unit tests
-
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-
-```
-npm run lint
 ```
 
 ### Customize configuration
