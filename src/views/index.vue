@@ -26,6 +26,7 @@
 
         <mybots />
         <work />
+        <contribution />
     </main>
 </template>
 
@@ -34,6 +35,7 @@ import mybots from '@/views/mybots/mybots.vue';
 import dc_profile from '@/components/_dc_profile/dc_profile.vue';
 import work from '@/components/work/work.vue';
 import about_me from '@/components/about_me/about_me.vue';
+import contribution from '@/components/contribution/contribution.vue';
 
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
@@ -43,6 +45,7 @@ export default {
         dc_profile,
         work,
         about_me,
+        contribution,
     },
 };
 </script>
