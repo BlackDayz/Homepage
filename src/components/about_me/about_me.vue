@@ -2,7 +2,7 @@
     <div class="about_me_left white left">
         <p>
             <img :src="require('@/assets/img/icons/hello-48.png')" width="42" /> Hey, my name is
-            obviously Mittelblut9 I'm 19 years old and a <span class="red">Junior</span> Web
+            obviously Mittelblut9 I'm 20 years old and a <span class="red">Junior</span> Web
             Developer living in Germany
         </p>
         <br />
