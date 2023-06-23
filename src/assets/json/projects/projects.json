@@ -285,5 +285,28 @@
                 "src": "/gif/der_duemmste_fliegt_homepage_video.gif"
             }
         ]
+    },
+    "nounfollowtwitch": {
+        "name": "No unfollow Twitch",
+        "description": "... hinter diesem Projekt, steckt eine Browser Extension, die dazu dient den unfollow Button zu entfernen. Jeder kennt es, ein 'missclick' und die 4+ Jahre Follow streak ist vorbei.",
+        "tecstack": ["javascript"],
+        "links": [
+            {
+                "icon": "https://img.icons8.com/color/48/000000/code.png",
+                "link": "https://github.com/Mittelblut9/no-unfollow-twitch",
+                "name": "GitHub"
+            },
+            {
+                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
+                "link": "https://addons.mozilla.org/de/firefox/addon/no-unfollow-twitch/",
+                "name": "Firefox Addon"
+            }
+        ],
+        "footer": [
+            {
+                "isImg": true,
+                "src": "/img/projects/no_unfollow_twitch_example.png"
+            }
+        ]
     }
 }

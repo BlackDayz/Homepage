@@ -92,6 +92,14 @@
                 /></a>
                 <h1 class="work_name">Der D&uuml;mmste fliegt</h1>
             </div>
+            <div class="work">
+                <a href="/projects?work=nounfollowtwitch"
+                    ><img
+                        :src="require('@/assets/img/projects/no_unfollow_twitch.jpg')"
+                        width="100%"
+                /></a>
+                <h1 class="work_name">No unfollow Twitch</h1>
+            </div>
         </main>
     </div>
 </template>
