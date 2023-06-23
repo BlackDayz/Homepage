@@ -83,11 +83,19 @@
     .grid-container {
         grid-template-columns: 50% 50%;
     }
+
+    .contribution {
+        grid-template-columns: 1fr 1fr !important;
+    }
 }
 
 @media only screen and (max-width: 610px) {
     .grid-container {
         grid-template-columns: 100%;
+    }
+
+    .contribution {
+        grid-template-columns: 1fr !important;
     }
 }
 
