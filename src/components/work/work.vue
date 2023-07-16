@@ -107,7 +107,7 @@
                 <h1 class="work_name">VotePlus Shopware 5</h1>
             </div>
             <div class="work">
-                <a href="/projects?work=voteplus"
+                <a href="/projects?work=phenixgamesv3"
                     ><img
                         :src="
                             require('@/assets/img/projects/PhenixGames_Logo_no_text_transparent.png')
