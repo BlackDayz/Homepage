@@ -34,7 +34,7 @@
 <script>
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
-    name: 'Footer',
+    name: 'BlackDayzFooter',
     data() {
         return {
             year: new Date().getFullYear(),

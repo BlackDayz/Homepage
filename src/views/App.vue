@@ -1,6 +1,6 @@
 <template>
     <router-view />
-    <Footer />
+    <BlackDayzFooter />
 </template>
 
 <style>
@@ -10,12 +10,12 @@
 </style>
 
 <script>
-import Footer from '@/components/_footer/footer.vue';
+import BlackDayzFooter from '@/components/_footer/footer.vue';
 
 export default {
     name: 'App',
     components: {
-        Footer,
+        BlackDayzFooter,
     },
 };
 </script>
