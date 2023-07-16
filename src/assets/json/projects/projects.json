@@ -338,5 +338,17 @@
                 "name": "GitHub"
             }
         ]
+    },
+    "studiodevoyage": {
+        "name": "Studio de Voyage - Online Modemarke",
+        "description": "... hinter diesem Projekt ist ein Online Shop für die Modemarke \"Studio de Voyage\". Der Onlineshop wurde mit Shopify erstellt. Ich habe mich um die technische Umsetzung gekümmert (Theme anpassungen und Einrichtung).",
+        "tecstack": ["shopify", "liquid"],
+        "links": [
+            {
+                "icon": "https://img.icons8.com/color/48/000000/code.png",
+                "link": "https://github.com/Mittelblut9/phenixgames-v3",
+                "name": "GitHub"
+            }
+        ]
     }
 }

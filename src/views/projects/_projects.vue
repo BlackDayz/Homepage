@@ -37,6 +37,14 @@
                     src="https://img.icons8.com/ios-filled/48/null/yii-framework.png"
                     title="yii"
                     v-if="tecstack.isYii" />
+                <img
+                    src="https://img.icons8.com/color/48/shopify.png"
+                    title="shopify"
+                    v-if="tecstack.isShopfiy" />
+                <img
+                    src="https://img.icons8.com/ios/50/shopify.png"
+                    title="liquid"
+                    v-if="tecstack.isLiquid" />
             </p>
         </header>
         <main class="p_info">
@@ -85,6 +93,8 @@ export default {
                 isPHP: false,
                 isCSS: false,
                 isYii: false,
+                isShopfiy: false,
+                isLiquid: false,
             },
             info_text: '',
             links: [],
@@ -110,6 +120,8 @@ export default {
         this.tecstack.isPHP = selectedWork.tecstack.includes('php');
         this.tecstack.isCSS = selectedWork.tecstack.includes('css');
         this.tecstack.isYii = selectedWork.tecstack.includes('yii');
+        this.tecstack.isShopfiy = selectedWork.tecstack.includes('shopify');
+        this.tecstack.isLiquid = selectedWork.tecstack.includes('liquid');
     },
 };
 </script>
