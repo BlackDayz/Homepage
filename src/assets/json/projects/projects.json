@@ -326,5 +326,17 @@
                 "src": "/img/projects/shopware_logo.png"
             }
         ]
+    },
+    "phenixgamesv3": {
+        "name": "PhenixGames V3 GTAV RageMP Server",
+        "description": "... hinter diesem Projekt stand ein RageMP-Onlineserver, der es Spielern ermöglichte, in eine Rollenspielwelt einzutauchen und mit ihrem Charakter eine Rolle zu übernehmen. Das Projekt wurde mangels Interesse an der Weiterentwicklung eingestellt.",
+        "tecstack": ["javascript", "node", "vue"],
+        "links": [
+            {
+                "icon": "https://img.icons8.com/color/48/000000/code.png",
+                "link": "https://github.com/Mittelblut9/phenixgames-v3",
+                "name": "GitHub"
+            }
+        ]
     }
 }

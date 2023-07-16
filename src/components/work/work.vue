@@ -106,6 +106,16 @@
                 /></a>
                 <h1 class="work_name">VotePlus Shopware 5</h1>
             </div>
+            <div class="work">
+                <a href="/projects?work=voteplus"
+                    ><img
+                        :src="
+                            require('@/assets/img/projects/PhenixGames_Logo_no_text_transparent.png')
+                        "
+                        width="100%"
+                /></a>
+                <h1 class="work_name">PhenixGames RageMP Server</h1>
+            </div>
         </main>
     </div>
 </template>
