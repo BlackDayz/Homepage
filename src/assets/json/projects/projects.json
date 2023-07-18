@@ -348,6 +348,11 @@
                 "icon": "https://img.icons8.com/color/48/000000/code.png",
                 "link": "https://github.com/Mittelblut9/phenixgames-v3",
                 "name": "GitHub"
+            },
+            {
+                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
+                "link": "https://studio-de-voyage.de/",
+                "name": "Online-Shop"
             }
         ]
     }
