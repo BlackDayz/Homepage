@@ -116,6 +116,16 @@
                 /></a>
                 <h1 class="work_name">PhenixGames RageMP Server</h1>
             </div>
+            <div class="work">
+                <a href="/projects?work=studiodevoyage"
+                    ><img
+                        :src="
+                            require('@/assets/img/projects/studiodevoyage.png')
+                        "
+                        width="100%"
+                /></a>
+                <h1 class="work_name">Studio de Voyage</h1>
+            </div>
         </main>
     </div>
 </template>
