@@ -45,6 +45,17 @@ export default {
                         'The most secure and effective way of verifying VLC students on Discord. I helped by adding a tooltip element.',
                     link: 'https://github.com/VLCCommunity/VLCOneKey',
                 },
+                {
+                    title: 'Dumpus Landing - Website',
+                    description:
+                        '[Rewrite with Vue.js] Simple static website for details, screenshots, etc. about the Dumpus app ',
+                    link: 'https://github.com/dumpus-app/dumpus-landing',
+                },
+                {
+                    title: 'Dumpus - German Translator',
+                    description: 'Get detailed insights and stats for your Discord account ',
+                    link: 'https://github.com/dumpus-app/dumpus-app',
+                },
             ],
         };
     },
