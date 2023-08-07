@@ -39,7 +39,7 @@ jobs:
                   rm -rf README.md
                   rm -rf tsconfig.json
                   rm -rf yarn.lock
-            
+
             - name: Deploy
               run: |
                   mv dist/* .

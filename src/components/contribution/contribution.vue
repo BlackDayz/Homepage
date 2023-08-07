@@ -45,6 +45,12 @@ export default {
                         'The most secure and effective way of verifying VLC students on Discord. I helped by adding a tooltip element.',
                     link: 'https://github.com/VLCCommunity/VLCOneKey',
                 },
+                {
+                    title: 'Canvacord',
+                    description:
+                        'Easily generate images on-the-fly with node.js using wide range of templates.',
+                    link: 'https://github.com/neplextech/canvacord',
+                },
             ],
         };
     },
