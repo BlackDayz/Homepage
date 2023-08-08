@@ -31,7 +31,7 @@
         "eslint-plugin-vue": "^9.15.1",
         "execa": "^7.2.0",
         "jest": "^27.0.5",
-        "prettier": "^3.0.0"
+        "prettier": "^3.0.1"
     },
     "eslintConfig": {
         "root": true,
