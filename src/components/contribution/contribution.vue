@@ -56,6 +56,12 @@ export default {
                     description: 'Get detailed insights and stats for your Discord account ',
                     link: 'https://github.com/dumpus-app/dumpus-app',
                 },
+                {
+                    title: 'Canvacord',
+                    description:
+                        'Easily generate images on-the-fly with node.js using wide range of templates.',
+                    link: 'https://github.com/neplextech/canvacord',
+                },
             ],
         };
     },
