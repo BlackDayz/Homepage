@@ -1,4 +1,112 @@
 {
+    "mittelbot": {
+        "name": "Mittelbot - Discord Bot",
+        "description": "... hinter dem Bot war eigentlich nur das Testen der Discord API. Daraus enstand schnell ein Feature nach dem anderen. Jetzt ist der Bot ein vollfunktionsfähiger Bot mit vielen Features, wie z.B. Musik, Moderation, Fun, Games, usw.",
+        "tecstack": ["javascript", "node"],
+        "links": [
+            {
+                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
+                "link": "https://mittelbot.xyz",
+                "name": "Webseite"
+            },
+            {
+                "icon": "https://img.icons8.com/color/48/000000/code.png",
+                "link": "https://github.com/Mittelbots/Mittelbot",
+                "name": "GitHub"
+            },
+            {
+                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
+                "link": "https://mittelbot.xyz/invite",
+                "name": "Discord Invite"
+            }
+        ],
+        "footer": [
+            {
+                "isVideo": true,
+                "src": "/mp4/mittelbot_v1.mp4"
+            }
+        ]
+    },
+    "phenixgamesv3": {
+        "name": "PhenixGames V3 GTAV RageMP Server",
+        "description": "... hinter diesem Projekt stand ein RageMP-Onlineserver, der es Spielern ermöglichte, in eine Rollenspielwelt einzutauchen und mit ihrem Charakter eine Rolle zu übernehmen. Das Projekt wurde mangels Interesse an der Weiterentwicklung eingestellt.",
+        "tecstack": ["javascript", "node", "vue"],
+        "links": [
+            {
+                "icon": "https://img.icons8.com/color/48/000000/code.png",
+                "link": "https://github.com/Mittelblut9/phenixgames-v3",
+                "name": "GitHub"
+            }
+        ]
+    },
+    "phenixgameshomepage": {
+        "name": "PhenixGames Homepage",
+        "description": "... hinter dieser Webseite war die Präsentation des GTA V RageMP Projekt.",
+        "tecstack": ["vue"],
+        "links": [
+            {
+                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
+                "link": "https://phenixgames.de",
+                "name": "Webseite"
+            },
+            {
+                "icon": "https://img.icons8.com/color/48/000000/code.png",
+                "link": "https://github.com/PhenixGames/PhenixGames-Homepage",
+                "name": "GitHub"
+            }
+        ],
+        "footer": [
+            {
+                "isImg": true,
+                "src": "/img/projects/phenixgames.png"
+            }
+        ]
+    },
+    "derduemmstefliegt": {
+        "name": "Der Dümmste fliegt",
+        "description": "... hinter diesem Projekt, steckt ein Spiel, das von vielen großen Streamern in ihren Streams gespielt wird. Nachdem ich die etwas abgegoofte Version von Rumathra gesehen habe, wollte ich das Game intuitiv und einfach nachbauen. Daraus ist das hier entstanden - Auch wenn es (noch) nicht fertig ist.",
+        "tecstack": ["vue"],
+        "links": [
+            {
+                "icon": "https://img.icons8.com/color/48/000000/code.png",
+                "link": "https://github.com/Mittelblut9/der-duemste-fliegt",
+                "name": "GitHub"
+            }
+        ],
+        "footer": [
+            {
+                "isImg": true,
+                "src": "/img/projects/der_duemmste_fliegt_createdRoom.png"
+            },
+            {
+                "isImg": true,
+                "src": "/img/projects/der_duemmste_fliegt_waitroom.png"
+            },
+            {
+                "isImg": true,
+                "src": "/gif/der_duemmste_fliegt_homepage_video.gif"
+            }
+        ]
+    },
+    "subscriptor": {
+        "name": "Subscriptor",
+        "description": "... hinter diesem Projekt, war das Praktikum welches ich im Sommer 2021 bei https://sascha-nos.com machen durfte. Dort sollte ich eine Webseite enwtickeln, in der man seine Abonnements hinzufügen und verwalten kann. Dazu ein Notificationsystem, welches den Benutzer in Echtzeit über die neuesten Updates seiner Abonnements informiert. Leider ist der Sourcode privat und die Seite zu diesem Zeitpunkt immer mal wieder nicht erreichbar. Deswegen hier ein paar Bilder der Webseite aus meinem Praktikumsbericht.",
+        "tecstack": ["vue", "php", "yii", "axios"],
+        "footer": [
+            {
+                "isImg": true,
+                "src": "/img/projects/subscriptor_login.png"
+            },
+            {
+                "isImg": true,
+                "src": "/img/projects/subscriptor_startseite.png"
+            },
+            {
+                "isImg": true,
+                "src": "/img/projects/subscriptor_neuervertrag.png"
+            }
+        ]
+    },
     "phenixgamesteam": {
         "name": "PhenixGames Team",
         "description": "... hinter diesem Projekt, ist ein Bereich für Teammitglieder des Projektes. Dort kann man In-Game relevante Informationen eines Spielers oder eines Fahzeuges ändern (z.B. einen Spieler bannen oder ein Fahrzeug löschen). Forum Beiträge erstellen, Bewerbungen/Anträge einsehen, annehmen oder ablehnen, Webseitbezogenen Daten ändern und Logs einschauen. Die neue Herausforderung war das Arbeiten mit getrenntem Frontend- und Backendsystem. Zuvor hatte ich dies nur in meinem Praktikumsprojekt ausprobieren können. Leider habe ich es nicht mehr geschafft das Projekt ordentlich aufzusetzten. Deswegen habe ich ein Video von der Seite erstellt in der Development-Umgebung",
@@ -108,34 +216,6 @@
             }
         ]
     },
-    "mittelbot": {
-        "name": "Mittelbot - Discord Bot",
-        "description": "... hinter dem Bot war eigentlich nur das Testen der Discord API. Daraus enstand schnell ein Feature nach dem anderen. Jetzt ist der Bot ein vollfunktionsfähiger Bot mit vielen Features, wie z.B. Musik, Moderation, Fun, Games, usw.",
-        "tecstack": ["javascript", "node"],
-        "links": [
-            {
-                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
-                "link": "https://mittelbot.xyz",
-                "name": "Webseite"
-            },
-            {
-                "icon": "https://img.icons8.com/color/48/000000/code.png",
-                "link": "https://github.com/Mittelbots/Mittelbot",
-                "name": "GitHub"
-            },
-            {
-                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
-                "link": "https://mittelbot.xyz/invite",
-                "name": "Discord Invite"
-            }
-        ],
-        "footer": [
-            {
-                "isVideo": true,
-                "src": "/mp4/mittelbot_v1.mp4"
-            }
-        ]
-    },
     "nobadvibes": {
         "name": "nobadVIBES (Fake-Shop, Showcase)",
         "description": "... hinter diesem Shop war, dass ein Klassenkamerad seine Kleidungermarke wie ein normaler Shop anbieten kann.  Hat sich einfach angehört, damals. Nach 73 Stunden Entwicklungszeit wurde daran nicht mehr weitergearbeitet. Viele Design- und Codebugs und das mit der Daten- und Codesicherheit ist auch nicht so das non-plus-ultra. Aber es war auch das erste mal, dass ich einen Shop entwickelt habe und musste mir deshalb alles selber beibringen; So wie alles was ich gemacht habe auch.",
@@ -151,29 +231,6 @@
             {
                 "isImg": true,
                 "src": "/img/projects/nobadvibes.png"
-            }
-        ]
-    },
-    "phenixgameshomepage": {
-        "name": "PhenixGames Homepage",
-        "description": "... hinter dieser Webseite war die Präsentation des GTA V RageMP Projekt.",
-        "tecstack": ["vue"],
-        "links": [
-            {
-                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
-                "link": "https://phenixgames.de",
-                "name": "Webseite"
-            },
-            {
-                "icon": "https://img.icons8.com/color/48/000000/code.png",
-                "link": "https://github.com/PhenixGames/PhenixGames-Homepage",
-                "name": "GitHub"
-            }
-        ],
-        "footer": [
-            {
-                "isImg": true,
-                "src": "/img/projects/phenixgames.png"
             }
         ]
     },
@@ -218,25 +275,6 @@
             }
         ]
     },
-    "subscriptor": {
-        "name": "Subscriptor",
-        "description": "... hinter diesem Projekt, war das Praktikum welches ich im Sommer 2021 bei https://sascha-nos.com machen durfte. Dort sollte ich eine Webseite enwtickeln, in der man seine Abonnements hinzufügen und verwalten kann. Dazu ein Notificationsystem, welches den Benutzer in Echtzeit über die neuesten Updates seiner Abonnements informiert. Leider ist der Sourcode privat und die Seite zu diesem Zeitpunkt immer mal wieder nicht erreichbar. Deswegen hier ein paar Bilder der Webseite aus meinem Praktikumsbericht.",
-        "tecstack": ["vue", "php", "yii", "axios"],
-        "footer": [
-            {
-                "isImg": true,
-                "src": "/img/projects/subscriptor_login.png"
-            },
-            {
-                "isImg": true,
-                "src": "/img/projects/subscriptor_startseite.png"
-            },
-            {
-                "isImg": true,
-                "src": "/img/projects/subscriptor_neuervertrag.png"
-            }
-        ]
-    },
     "calculator": {
         "name": "Very easy Calculator",
         "description": "... hinter diesem Projekt, war um meine JavaScript Kenntnisse aufzufrischen und meinem Portfolio etwas kleines hinzuzufügen.",
@@ -257,32 +295,6 @@
             {
                 "isImg": true,
                 "src": "/img/projects/veryeasycalculator.png"
-            }
-        ]
-    },
-    "derduemmstefliegt": {
-        "name": "Der Dümmste fliegt",
-        "description": "... hinter diesem Projekt, steckt ein Spiel, das von vielen großen Streamern in ihren Streams gespielt wird. Nachdem ich die etwas abgegoofte Version von Rumathra gesehen habe, wollte ich das Game intuitiv und einfach nachbauen. Daraus ist das hier entstanden - Auch wenn es (noch) nicht fertig ist.",
-        "tecstack": ["vue"],
-        "links": [
-            {
-                "icon": "https://img.icons8.com/color/48/000000/code.png",
-                "link": "https://github.com/Mittelblut9/der-duemste-fliegt",
-                "name": "GitHub"
-            }
-        ],
-        "footer": [
-            {
-                "isImg": true,
-                "src": "/img/projects/der_duemmste_fliegt_createdRoom.png"
-            },
-            {
-                "isImg": true,
-                "src": "/img/projects/der_duemmste_fliegt_waitroom.png"
-            },
-            {
-                "isImg": true,
-                "src": "/gif/der_duemmste_fliegt_homepage_video.gif"
             }
         ]
     },
@@ -324,18 +336,6 @@
             {
                 "isImg": true,
                 "src": "/img/projects/shopware_logo.png"
-            }
-        ]
-    },
-    "phenixgamesv3": {
-        "name": "PhenixGames V3 GTAV RageMP Server",
-        "description": "... hinter diesem Projekt stand ein RageMP-Onlineserver, der es Spielern ermöglichte, in eine Rollenspielwelt einzutauchen und mit ihrem Charakter eine Rolle zu übernehmen. Das Projekt wurde mangels Interesse an der Weiterentwicklung eingestellt.",
-        "tecstack": ["javascript", "node", "vue"],
-        "links": [
-            {
-                "icon": "https://img.icons8.com/color/48/000000/code.png",
-                "link": "https://github.com/Mittelblut9/phenixgames-v3",
-                "name": "GitHub"
             }
         ]
     },
