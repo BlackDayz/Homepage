@@ -96,6 +96,7 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
     document.title = 'BlackDayz | ' + to.name;
+    window.scrollTo(0, 0);
     next();
 });
 

@@ -8,22 +8,22 @@
             </div>
 
             <div class="bot-showcase display-flex justify-content-center">
-                <a href="/mittelbot" class="link">
+                <router-link to="/mittelbot" class="link">
                     <div class="bot">
                         <img
                             :src="require('@/assets/img/projects/bots/bot_mittelbot.png')"
                             alt="Mittelbot Logo" />
                         <h3>Mittelbot</h3>
                     </div>
-                </a>
-                <a href="/mido" class="link">
+                </router-link>
+                <router-link to="/mido" class="link">
                     <div class="bot">
                         <img
                             :src="require('@/assets/img/projects/bots/bot_mido.png')"
                             alt="Mittelbot Logo" />
                         <h3>Mido</h3>
                     </div>
-                </a>
+                </router-link>
             </div>
         </header>
     </div>

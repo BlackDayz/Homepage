@@ -1,8 +1,8 @@
 <template>
     <footer class="display-grid justify-content-center">
         <p>
-            <a href="/impressum" class="link black">Impressum</a> |
-            <a href="/datenschutz" class="link black">privacy</a> |
+            <router-link to="/impressum" class="link black">Impressum</router-link> |
+            <router-link to="/datenschutz" class="link black">privacy</router-link> |
             <strong>BlackDayz &copy;{{ year }}</strong>
         </p>
         <span class="display-flex justify-content-center">

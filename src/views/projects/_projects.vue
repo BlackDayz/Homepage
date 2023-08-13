@@ -1,6 +1,6 @@
 <template>
     <div class="p_detail">
-        <a :href="backLink" id="back">home</a>
+        <router-link :href="backLink" id="back">home</router-link>
         <header>
             <h1 class="absolute">{{ work_name }}</h1>
             <p class="absolute">

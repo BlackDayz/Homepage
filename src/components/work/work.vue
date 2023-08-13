@@ -13,9 +13,9 @@
                 v-for="(project, index) in projects"
                 :key="index"
                 v-show="project.titlepage">
-                <a :href="'/projects?work=' + index">
+                <router-link :to="'/projects?work=' + index">
                     <img :src="require('@/assets/img/projects/' + project.img)" width="100%" />
-                </a>
+                </router-link>
                 <h1 class="work_name">{{ project.name }}</h1>
             </div>
         </main>
