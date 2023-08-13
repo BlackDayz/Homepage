@@ -46,6 +46,17 @@ export default {
                     link: 'https://github.com/VLCCommunity/VLCOneKey',
                 },
                 {
+                    title: 'Dumpus Landing - Website',
+                    description:
+                        '[Rewrite with Vue.js] Simple static website for details, screenshots, etc. about the Dumpus app ',
+                    link: 'https://github.com/dumpus-app/dumpus-landing',
+                },
+                {
+                    title: 'Dumpus - German Translator',
+                    description: 'Get detailed insights and stats for your Discord account ',
+                    link: 'https://github.com/dumpus-app/dumpus-app',
+                },
+                {
                     title: 'Canvacord',
                     description:
                         'Easily generate images on-the-fly with node.js using wide range of templates.',
