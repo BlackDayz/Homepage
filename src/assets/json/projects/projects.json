@@ -3,6 +3,7 @@
         "name": "Mittelbot - Discord Bot",
         "description": "... hinter dem Bot war eigentlich nur das Testen der Discord API. Daraus enstand schnell ein Feature nach dem anderen. Jetzt ist der Bot ein vollfunktionsfähiger Bot mit vielen Features, wie z.B. Musik, Moderation, Fun, Games, usw.",
         "tecstack": ["javascript", "node"],
+        "img": "mittelbot.png",
         "links": [
             {
                 "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
@@ -25,24 +26,28 @@
                 "isVideo": true,
                 "src": "/mp4/mittelbot_v1.mp4"
             }
-        ]
+        ],
+        "titlepage": true
     },
     "phenixgamesv3": {
         "name": "PhenixGames V3 GTAV RageMP Server",
         "description": "... hinter diesem Projekt stand ein RageMP-Onlineserver, der es Spielern ermöglichte, in eine Rollenspielwelt einzutauchen und mit ihrem Charakter eine Rolle zu übernehmen. Das Projekt wurde mangels Interesse an der Weiterentwicklung eingestellt.",
         "tecstack": ["javascript", "node", "vue"],
+        "img": "PhenixGames_Logo_no_text_transparent.png",
         "links": [
             {
                 "icon": "https://img.icons8.com/color/48/000000/code.png",
                 "link": "https://github.com/Mittelblut9/phenixgames-v3",
                 "name": "GitHub"
             }
-        ]
+        ],
+        "titlepage": true
     },
     "phenixgameshomepage": {
         "name": "PhenixGames Homepage",
         "description": "... hinter dieser Webseite war die Präsentation des GTA V RageMP Projekt.",
         "tecstack": ["vue"],
+        "img": "phenixgames.png",
         "links": [
             {
                 "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
@@ -60,12 +65,14 @@
                 "isImg": true,
                 "src": "/img/projects/phenixgames.png"
             }
-        ]
+        ],
+        "titlepage": true
     },
     "derduemmstefliegt": {
         "name": "Der Dümmste fliegt",
         "description": "... hinter diesem Projekt, steckt ein Spiel, das von vielen großen Streamern in ihren Streams gespielt wird. Nachdem ich die etwas abgegoofte Version von Rumathra gesehen habe, wollte ich das Game intuitiv und einfach nachbauen. Daraus ist das hier entstanden - Auch wenn es (noch) nicht fertig ist.",
         "tecstack": ["vue"],
+        "img": "der_duemmste_fliegt_waitroom.png",
         "links": [
             {
                 "icon": "https://img.icons8.com/color/48/000000/code.png",
@@ -86,12 +93,14 @@
                 "isImg": true,
                 "src": "/gif/der_duemmste_fliegt_homepage_video.gif"
             }
-        ]
+        ],
+        "titlepage": true
     },
     "subscriptor": {
         "name": "Subscriptor",
         "description": "... hinter diesem Projekt, war das Praktikum welches ich im Sommer 2021 bei https://sascha-nos.com machen durfte. Dort sollte ich eine Webseite enwtickeln, in der man seine Abonnements hinzufügen und verwalten kann. Dazu ein Notificationsystem, welches den Benutzer in Echtzeit über die neuesten Updates seiner Abonnements informiert. Leider ist der Sourcode privat und die Seite zu diesem Zeitpunkt immer mal wieder nicht erreichbar. Deswegen hier ein paar Bilder der Webseite aus meinem Praktikumsbericht.",
         "tecstack": ["vue", "php", "yii", "axios"],
+        "img": "subscriptor_startseite.png",
         "footer": [
             {
                 "isImg": true,
@@ -105,12 +114,14 @@
                 "isImg": true,
                 "src": "/img/projects/subscriptor_neuervertrag.png"
             }
-        ]
+        ],
+        "titlepage": true
     },
     "phenixgamesteam": {
         "name": "PhenixGames Team",
         "description": "... hinter diesem Projekt, ist ein Bereich für Teammitglieder des Projektes. Dort kann man In-Game relevante Informationen eines Spielers oder eines Fahzeuges ändern (z.B. einen Spieler bannen oder ein Fahrzeug löschen). Forum Beiträge erstellen, Bewerbungen/Anträge einsehen, annehmen oder ablehnen, Webseitbezogenen Daten ändern und Logs einschauen. Die neue Herausforderung war das Arbeiten mit getrenntem Frontend- und Backendsystem. Zuvor hatte ich dies nur in meinem Praktikumsprojekt ausprobieren können. Leider habe ich es nicht mehr geschafft das Projekt ordentlich aufzusetzten. Deswegen habe ich ein Video von der Seite erstellt in der Development-Umgebung",
         "tecstack": ["html", "node", "axios"],
+        "img": "pg_teambereich_dark.png",
         "links": [
             {
                 "icon": "https://img.icons8.com/color/48/000000/code.png",
@@ -128,12 +139,14 @@
                 "isVideo": true,
                 "src": "/mp4/2021-11-28 15-04-45_Trim.mp4"
             }
-        ]
+        ],
+        "titlepage": true
     },
     "changerjs": {
         "name": "Changer.js (Mini-Library)",
         "description": "... hinter dieser Mini-Library war, dass man ganz einfach Änderungen in (mehreren) Inputs weiterverwenden kann.",
         "tecstack": ["javascript", "jquery"],
+        "img": "changerjs.png",
         "links": [
             {
                 "icon": "https://img.icons8.com/color/48/000000/code.png",
@@ -152,6 +165,7 @@
         "name": "La Campana Website Design (unofficial)",
         "description": "... hinter diesem Projekt war, dass ein Freund und ich Lust hatten für ein Lokales Restaurant eine neue Webseite zu erstellen. Wir beide sind nicht die geborenen Designer; Aber zwei doofe ergibt meistens ein schlauer. Also haben wir uns an das Design zu erst gesetzt. Ein paar Stunden später haben wir unsere feste Designidee (siehe PDF) an das Restaurant geschickt. Es sah zu erst sehr viel versprechend aus, jedoch kam nach einiger Zeit keine Antwort mehr.  Bis dann im Frühjar 2022 das Restaruant eine neue Webseite bekommen hat. Nicht von uns...",
         "tecstack": ["javascript", "jquery"],
+        "img": "la_campana_design.png",
         "links": [],
         "footer": [
             {
@@ -164,6 +178,7 @@
         "name": "Cookie Clicker",
         "description": "... hinter diesem Spiel, war meine JavaScript Kenntnisse aufzufrischen. Die erste Version, war auch meine erste große Erfahrung mit JavaScript. Die zweite Version habe ich angefangen, weil der Code in der ersten sehr unübersichtlich wurde.",
         "tecstack": ["html", "javascript", "jquery"],
+        "img": "cookieclicker.png",
         "links": [
             {
                 "icon": "https://img.icons8.com/color/48/000000/code.png",
@@ -197,6 +212,7 @@
         "name": "Easy Login Design",
         "description": "... hinter dem Design, war dass man den Sign-In und Sign-Up Bereich direkt in einer Datei hat und nicht unötig mehrere benötigt.",
         "tecstack": ["javascript", "jquery"],
+        "img": "easylogin.png",
         "links": [
             {
                 "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
@@ -220,6 +236,7 @@
         "name": "nobadVIBES (Fake-Shop, Showcase)",
         "description": "... hinter diesem Shop war, dass ein Klassenkamerad seine Kleidungermarke wie ein normaler Shop anbieten kann.  Hat sich einfach angehört, damals. Nach 73 Stunden Entwicklungszeit wurde daran nicht mehr weitergearbeitet. Viele Design- und Codebugs und das mit der Daten- und Codesicherheit ist auch nicht so das non-plus-ultra. Aber es war auch das erste mal, dass ich einen Shop entwickelt habe und musste mir deshalb alles selber beibringen; So wie alles was ich gemacht habe auch.",
         "tecstack": ["php"],
+        "img": "nobadvibes.png",
         "links": [
             {
                 "icon": "https://img.icons8.com/color/48/000000/code.png",
@@ -238,6 +255,7 @@
         "name": "DAZ (Shop)",
         "description": " ... hinter diesem Shop war, dass in diesem selbst geschriebenen</i> Shop mehrere Produzenten ihreProdukte anbieten anbieten können. Als Zahlungsmethode erstmal nur PayPal. Hat sich einfach angehört, damals. Aber nach ca. 68 Stunden Entwicklungszeit wurde mir das Ganze zu viel neben der Schule, usw. Seitdemruht das Projekt in dem jetzigen Zustand.Viele Design- und Codebugs, das mit der Daten- und Codesicherheit ist auch nicht so dasnon-plus-ultra. und wenig invdividuelle Codestruktur, die das Umziehen auf einen neue Umgebungschwer machen.Aber es war auch das erste mal, dass ich einen Shop entwickelt habe und musste mir so alles selberbeibringen; So wie alles was ich gemacht habe auch. Mein Plan um dieses Projekt aufzufrischen ist das Projekt komplett im Backend mit dem PHP FrameworkCodeIgniter laufen zu lassen.",
         "tecstack": ["php"],
+        "img": "prodbydaz.png",
         "links": [
             {
                 "icon": "https://img.icons8.com/color/48/000000/code.png",
@@ -256,6 +274,7 @@
         "name": "Redesign (Schulprojekt)",
         "description": "... hinter dieser Webseite war, die Aufgabe die wir in der Schule aufbekommen haben. Ein komplettes Redesign von der Seite https://www.visuelle-mediengestaltung.de.Ich habe mich nach ein paar Skizzen und Wireframes sofort an die Entwicklung der Seite begeben. Nach einer Zeit war die alte Seite so voll mit JavaScript, dass ich selber den Überblick verloren habe. Aus diesem Grund hatte ich mich entschieden das Ganze von 0 nochmal anzufangen und mehr auf die Codestruktur und organisierung zu achten. In den Settings verstecken sich ein paar Spielereien, wie z.B. Fehlermeldungen on/off, JavaScript Animation on/off, Cookieeinstellungen und einen Darkmode.",
         "tecstack": ["html", "css", "javascript", "jquery"],
+        "img": "redesign.png",
         "links": [
             {
                 "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
@@ -279,6 +298,7 @@
         "name": "Very easy Calculator",
         "description": "... hinter diesem Projekt, war um meine JavaScript Kenntnisse aufzufrischen und meinem Portfolio etwas kleines hinzuzufügen.",
         "tecstack": ["javascript", "jquery"],
+        "img": "veryeasycalculator.png",
         "links": [
             {
                 "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
@@ -302,6 +322,7 @@
         "name": "No unfollow Twitch",
         "description": "... hinter diesem Projekt, steckt eine Browser Extension, die dazu dient den unfollow Button zu entfernen. Jeder kennt es, ein 'missclick' und die 4+ Jahre Follow streak ist vorbei.",
         "tecstack": ["javascript"],
+        "img": "no_unfollow_twitch.jpg",
         "links": [
             {
                 "icon": "https://img.icons8.com/color/48/000000/code.png",
@@ -325,6 +346,7 @@
         "name": "VotePlus Shopware Plugin",
         "description": "... hinter diesem Projekt, ist ein Shopware 5 Plugin, welches ich im Rahmen der ersten Wochen meiner Ausbildung entwickelt habe. Es dient dazu, dass Kunden die Möglichkeit haben, Produkte zu bewerten und diese Bewertungen dann auch zu sehen.",
         "tecstack": ["php"],
+        "img": "shopware_logo.png",
         "links": [
             {
                 "icon": "https://img.icons8.com/color/48/000000/code.png",
@@ -343,12 +365,8 @@
         "name": "Studio de Voyage - Online Modemarke",
         "description": "... hinter diesem Projekt ist ein Online Shop für die Modemarke \"Studio de Voyage\". Der Onlineshop wurde mit Shopify erstellt. Ich habe mich um die technische Umsetzung gekümmert (Theme anpassungen und Einrichtung).",
         "tecstack": ["shopify", "liquid"],
+        "img": "studiodevoyage.png",
         "links": [
-            {
-                "icon": "https://img.icons8.com/color/48/000000/code.png",
-                "link": "https://github.com/Mittelblut9/phenixgames-v3",
-                "name": "GitHub"
-            },
             {
                 "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
                 "link": "https://studio-de-voyage.de/",

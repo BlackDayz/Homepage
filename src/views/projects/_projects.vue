@@ -75,7 +75,7 @@
 </template>
 
 <script>
-import projcectConfig from '@/assets/json/projects/projects.json';
+import projects from '@/assets/json/projects/projects.json';
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
     name: 'projects',
@@ -105,7 +105,7 @@ export default {
         const urlParams = new URLSearchParams(window.location.search);
         const work = urlParams.get('work');
 
-        const selectedWork = projcectConfig[work];
+        const selectedWork = projects[work];
         this.work_name = selectedWork.name;
         this.info_text = selectedWork.description;
         this.links = selectedWork.links;
