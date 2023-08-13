@@ -20,5 +20,8 @@ export default {
         BlackDayzFooter,
         BlackDayzHeader,
     },
+    mounted() {
+        window.scrollTo(0, 0);
+    },
 };
 </script>
