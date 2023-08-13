@@ -8,6 +8,7 @@
         '. .'
         '. .'
         '. .';
+    padding: 0;
 }
 
 .work {
@@ -37,4 +38,21 @@
     z-index: 9;
     transform: translateY(-400px);
     pointer-events: none;
+}
+
+.work_show_more {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.work_show_more span {
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 10px 20px;
+    transition: all 0.5s;
+    font-weight: 700;
+}
+
+.work_show_more span:hover {
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.185);
 }

@@ -1,0 +1,13 @@
+.nav {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: var(--black);
+    z-index: 100;
+}
+
+.nav img {
+    width: 6rem;
+    object-fit: cover;
+    margin: 0 50px;
+}

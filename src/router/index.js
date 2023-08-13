@@ -82,6 +82,11 @@ const routes = [
                 'https://raw.githubusercontent.com/Mittelbots/Mittelbot/dev/.github/logo.png';
         },
     },
+    {
+        path: '/overview',
+        name: 'Project Overview',
+        component: () => import('../views/projects/overview.vue'),
+    },
 ];
 
 const router = createRouter({
