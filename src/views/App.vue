@@ -19,9 +19,6 @@ export default {
     components: {
         BlackDayzFooter,
         BlackDayzHeader,
-    },
-    mounted() {
-        window.scrollTo(0, 0);
-    },
+    }
 };
 </script>
