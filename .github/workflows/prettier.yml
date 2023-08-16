@@ -3,6 +3,8 @@ name: Code Check
 on:
     pull_request:
         branches: [main, dev]
+    push:
+        branches: [dev]
 
 jobs:
     prettier:
