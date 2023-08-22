@@ -38,7 +38,6 @@ jobs:
                   rm package.json
                   rm README.md
                   rm jsconfig.json
-                  rm yarn.lock
                   rm -rf tests
 
             - name: Deploy
