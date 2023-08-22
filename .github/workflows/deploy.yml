@@ -47,7 +47,7 @@ jobs:
 
             - name: Mov files to main folder
               run: |
-                   mv dist ../
+                  mv dist ../
 
             - name: Deploy
               run: |
