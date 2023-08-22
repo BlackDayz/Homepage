@@ -30,6 +30,10 @@ jobs:
               run: |
                   npm run build
 
+            - name: Mov files to main folder
+              run: |
+                  mv dist ../
+
             - name: Clean up folder
               run: |
                   rm -rf node_modules
@@ -44,11 +48,8 @@ jobs:
                   rm -rf README.md
                   rm -rf tsconfig.json
                   rm -rf yarn.lock
-
-            - name: Mov files to main folder
-              run: |
-                  mv dist ../
+                  rm -rf _deploy
 
             - name: Deploy
               run: |
-                  mv dist/* .
+                  mv ../dist/* ../.
