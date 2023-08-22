@@ -1235,9 +1235,7 @@
                             while (o--)
                                 (a = p[o]) && -1 < (i = y ? P(e, a) : s[o]) && (e[i] = !(t[i] = a));
                         }
-                    } else
-                        (p = Te(p === t ? p.splice(l, p.length) : p)),
-                            y ? y(null, t, p, r) : H.apply(t, p);
+                    } else (p = Te(p === t ? p.splice(l, p.length) : p)), y ? y(null, t, p, r) : H.apply(t, p);
                 })
             );
         }
@@ -4133,14 +4131,7 @@
                           if (a) {
                               (t = 0), (n = S(this)), (r = vt(i));
                               while ((e = r[t++])) n.hasClass(e) ? n.removeClass(e) : n.addClass(e);
-                          } else
-                              (void 0 !== i && 'boolean' !== o) ||
-                                  ((e = gt(this)) && Y.set(this, '__className__', e),
-                                  this.setAttribute &&
-                                      this.setAttribute(
-                                          'class',
-                                          e || !1 === i ? '' : Y.get(this, '__className__') || ''
-                                      ));
+                          } else (void 0 !== i && 'boolean' !== o) || ((e = gt(this)) && Y.set(this, '__className__', e), this.setAttribute && this.setAttribute('class', e || !1 === i ? '' : Y.get(this, '__className__') || ''));
                       });
             },
             hasClass: function (e) {
