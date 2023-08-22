@@ -37,7 +37,7 @@ jobs:
                   rm package-lock.json
                   rm package.json
                   rm README.md
-                  rm tsconfig.json
+                  rm jsconfig.json
                   rm yarn.lock
                   rm -rf tests
 
