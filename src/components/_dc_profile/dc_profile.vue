@@ -4,7 +4,8 @@
             <div class="card-header">
                 <div
                     :style="{ backgroundImage: `url(${require('@/assets/gif/banner.gif')})` }"
-                    class="banner-image"></div>
+                    class="banner-image"
+                ></div>
                 <div class="infos">
                     <div class="profil-logo">
                         <img :src="require('@/assets/img/logo.png')" />

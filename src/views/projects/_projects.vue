@@ -7,44 +7,54 @@
                 <img
                     src="https://img.icons8.com/windows/48/000000/html.png"
                     title="html"
-                    v-if="tecstack.isHTML" />
+                    v-if="tecstack.isHTML"
+                />
                 <img
                     src="https://img.icons8.com/windows/48/000000/vuejs.png"
                     title="vue.js"
-                    v-if="tecstack.isVue" />
+                    v-if="tecstack.isVue"
+                />
                 <img
                     src="https://img.icons8.com/color/48/000000/nodejs.png"
                     title="node.js"
-                    v-if="tecstack.isNode" />
+                    v-if="tecstack.isNode"
+                />
                 <span v-if="tecstack.isAxios">Axios</span>
                 <img
                     src="https://img.icons8.com/ios-filled/50/000000/jquery.png"
                     title="jquery"
-                    v-if="tecstack.isJQuery" />
+                    v-if="tecstack.isJQuery"
+                />
                 <img
                     src="https://img.icons8.com/color/48/000000/javascript--v1.png"
                     title="javascript"
-                    v-if="tecstack.isJavascript" />
+                    v-if="tecstack.isJavascript"
+                />
                 <img
                     src="https://img.icons8.com/officel/48/null/php-logo.png"
                     title="php"
-                    v-if="tecstack.isPHP" />
+                    v-if="tecstack.isPHP"
+                />
                 <img
                     src="https://img.icons8.com/color/48/000000/css3.png"
                     title="css"
-                    v-if="tecstack.isCSS" />
+                    v-if="tecstack.isCSS"
+                />
                 <img
                     src="https://img.icons8.com/ios-filled/48/null/yii-framework.png"
                     title="yii"
-                    v-if="tecstack.isYii" />
+                    v-if="tecstack.isYii"
+                />
                 <img
                     src="https://img.icons8.com/color/48/shopify.png"
                     title="shopify"
-                    v-if="tecstack.isShopfiy" />
+                    v-if="tecstack.isShopfiy"
+                />
                 <img
                     src="https://img.icons8.com/ios/50/shopify.png"
                     title="liquid"
-                    v-if="tecstack.isLiquid" />
+                    v-if="tecstack.isLiquid"
+                />
             </p>
         </header>
         <main class="p_info">

@@ -10,6 +10,11 @@ jobs:
         runs-on: self-hosted
 
         steps:
+            - name: Create deploy folder
+              run: |
+                  mkdir _deploy
+                  cd _deploy
+
             - name: Checkout code
               uses: actions/checkout@v3
 
@@ -25,7 +30,11 @@ jobs:
               run: |
                   npm run build
 
-            - name: Clean up folders
+            - name: Mov files to main folder
+              run: |
+                  mv dist ../
+
+            - name: Clean up folder
               run: |
                   rm -rf node_modules
                   rm -rf .git
@@ -39,7 +48,8 @@ jobs:
                   rm -rf README.md
                   rm -rf tsconfig.json
                   rm -rf yarn.lock
+                  rm -rf _deploy
 
             - name: Deploy
               run: |
-                  mv dist/* .
+                  mv ../dist/* ../.

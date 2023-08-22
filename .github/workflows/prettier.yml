@@ -3,6 +3,8 @@ name: Code Check
 on:
     pull_request:
         branches: [main, dev]
+    push:
+        branches: [dev]
 
 jobs:
     prettier:
@@ -21,6 +23,6 @@ jobs:
               uses: creyD/prettier_action@v4.3
               with:
                   # This part is also where you can pass other options, for example:
-                  prettier_options: '--check . --single-quote --bracket-same-line=true'
+                  prettier_options: '--check .'
                   dry: true
                   only_changed: True

@@ -1,14 +1,14 @@
 {
     "name": "blackdayz",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "private": true,
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
         "test:unit": "vue-cli-service test:unit",
         "lint": "vue-cli-service lint",
-        "format": "prettier --write . --single-quote --bracket-same-line=true",
-        "check": "prettier --check . --single-quote --bracket-same-line=true"
+        "format": "prettier --write .",
+        "check": "prettier --check ."
     },
     "dependencies": {
         "pretier": "^0.0.1",
@@ -25,13 +25,13 @@
         "@vue/test-utils": "^2.4.1",
         "@vue/vue3-jest": "^27.0.0-alpha.1",
         "babel-jest": "^27.0.6",
-        "eslint": "^8.46.0",
+        "eslint": "^8.47.0",
         "eslint-config-prettier": "^9.0.0",
         "eslint-plugin-prettier": "^5.0.0",
         "eslint-plugin-vue": "^9.17.0",
-        "execa": "^7.2.0",
+        "execa": "^8.0.1",
         "jest": "^27.0.5",
-        "prettier": "^3.0.1"
+        "prettier": "^3.0.2"
     },
     "eslintConfig": {
         "root": true,

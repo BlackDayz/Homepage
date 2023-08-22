@@ -12,7 +12,8 @@
                     <div class="bot">
                         <img
                             :src="require('@/assets/img/projects/bots/bot_mittelbot.png')"
-                            alt="Mittelbot Logo" />
+                            alt="Mittelbot Logo"
+                        />
                         <h3>Mittelbot</h3>
                     </div>
                 </router-link>
@@ -20,7 +21,8 @@
                     <div class="bot">
                         <img
                             :src="require('@/assets/img/projects/bots/bot_mido.png')"
-                            alt="Mittelbot Logo" />
+                            alt="Mittelbot Logo"
+                        />
                         <h3>Mido</h3>
                     </div>
                 </router-link>
