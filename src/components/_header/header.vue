@@ -1,17 +1,14 @@
 <template>
-    <nav class="nav" @click="returnToHome">
-        <img src="@/assets/img/logo.png" alt="BlackDayz Logo" />
+    <nav class="nav">
+        <router-link to="/">
+            <img src="@/assets/img/logo.png" alt="BlackDayz Logo" />
+        </router-link>
     </nav>
 </template>
 
 <script>
 export default {
     name: 'BlackDayzHeader',
-    methods: {
-        returnToHome() {
-            window.location.href = '/';
-        },
-    },
 };
 </script>
 
