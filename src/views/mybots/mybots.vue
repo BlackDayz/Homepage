@@ -8,7 +8,7 @@
             </div>
 
             <div class="bot-showcase display-flex justify-content-center">
-                <router-link to="/mittelbot" class="link">
+                <a :href="mittelbotURL" class="link">
                     <div class="bot">
                         <img
                             :src="require('@/assets/img/projects/bots/bot_mittelbot.png')"
@@ -16,7 +16,7 @@
                         />
                         <h3>Mittelbot</h3>
                     </div>
-                </router-link>
+                </a>
                 <router-link to="/mido" class="link">
                     <div class="bot">
                         <img
@@ -35,5 +35,10 @@
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
     name: 'mybots',
+    data() {
+        return {
+            mittelbotURL: 'https://mittelbot.xyz',
+        };
+    },
 };
 </script>
