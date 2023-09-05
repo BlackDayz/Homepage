@@ -47,5 +47,9 @@ export default {
         about_me,
         contribution,
     },
+
+    created() {
+        document.title = 'BlackDayz - Developer';
+    },
 };
 </script>
