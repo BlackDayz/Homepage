@@ -96,33 +96,9 @@
                 <div class="roles">
                     <div class="category-title">Roles (Skills)</div>
                     <div class="roles-list">
-                        <div class="role">
+                        <div class="role" v-for="skill in skills" :key="skill">
                             <div class="color"></div>
-                            HTML5
-                        </div>
-                        <div class="role">
-                            <div class="color"></div>
-                            CSS3
-                        </div>
-                        <div class="role">
-                            <div class="color"></div>
-                            JavaScript
-                        </div>
-                        <div class="role">
-                            <div class="color"></div>
-                            Node.js
-                        </div>
-                        <div class="role">
-                            <div class="color"></div>
-                            Vue.js
-                        </div>
-                        <div class="role">
-                            <div class="color"></div>
-                            PHP
-                        </div>
-                        <div class="role">
-                            <div class="color"></div>
-                            Yii2
+                            {{ skill }}
                         </div>
                     </div>
                 </div>
@@ -139,10 +115,25 @@
 </template>
 
 <script>
-import main from '@/assets/js/main.js';
-
 export default {
     name: 'dc_profile',
+    data() {
+        return {
+            skills: [
+                'CSS3',
+                'JavaScript',
+                'Node.js',
+                'Vue.js',
+                'PHP',
+                'Yii2',
+                'Shopware',
+                'Symfony',
+                'Discord.js',
+                'Docker',
+                'Sequelize',
+            ],
+        };
+    },
 };
 </script>
 
