@@ -72,6 +72,10 @@ export default {
 
             const title = this.getTitle();
 
+            if (!this.lastTitle) {
+                this.lastTitle = title;
+            }
+
             if (title !== this.lastTitle) {
                 this.triggerAnimation();
 
