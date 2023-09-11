@@ -46,8 +46,18 @@ a {
 }
 
 .head_text_big {
-    font-size: 15vw;
+    font-size: 20vw;
     font-weight: 900;
+}
+
+@media only screen and (min-width: 1582px) {
+    .head_text_big {
+        font-size: 20rem;
+    }
+    .head_text h1 {
+        font-size: 5rem;
+        letter-spacing: 3.4px;
+    }
 }
 
 .head_text_big div {
