@@ -60,6 +60,16 @@ a {
     }
 }
 
+@media only screen and (max-height: 900px) {
+    .head_text_big {
+        font-size: 10rem;
+    }
+    .head_text h1 {
+        font-size: 5rem;
+        letter-spacing: 3.4px;
+    }
+}
+
 .head_text_big div {
     margin: 10px 0 0 0;
 }

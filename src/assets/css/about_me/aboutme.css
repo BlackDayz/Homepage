@@ -1,6 +1,6 @@
 .about_me {
     padding: 90px 80px;
-    height: 70vh;
+    height: 90vh;
     background: var(--black);
 }
 
@@ -25,4 +25,16 @@
 
 .about_me_right {
     width: 50%;
+}
+
+@media only screen and (max-width: 1082px) {
+    .about_me {
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 678px) {
+    .about_me {
+        height: 120vh;
+    }
 }
