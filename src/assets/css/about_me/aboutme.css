@@ -26,3 +26,9 @@
 .about_me_right {
     width: 50%;
 }
+
+@media only screen and (max-width: 1082px) {
+    .about_me {
+        height: 100vh;
+    }
+}
