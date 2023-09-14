@@ -49,8 +49,8 @@ export default {
     },
     data() {
         return {
-            titles: ['WEB', 'BOT'],
-            intervalTime: 5000,
+            titles: ['WEB', 'BOT', 'JUNIOR'],
+            intervalTime: 3000,
             lastTitle: '',
         };
     },
