@@ -62,6 +62,12 @@ export default {
                         'Easily generate images on-the-fly with node.js using wide range of templates.',
                     link: 'https://github.com/neplextech/canvacord',
                 },
+                {
+                    title: 'StreamAwards Feedback',
+                    description:
+                        'A feedback github repository for the StreamAwards. I helped by adding advanced issue templates.',
+                    link: 'https://github.com/dieserRobin/streamawards-feedback',
+                },
             ],
         };
     },
