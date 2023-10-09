@@ -6,7 +6,6 @@
             <strong>BlackDayz &copy;{{ year }}</strong>
         </p>
         <span class="display-flex justify-content-center">
-            <a rel="me" href="https://mastodon.green/@mittelblut9">Mastodon</a>
             <a title="BlackDayz Instagram" href="https://www.instagram.com/blackdayz_de/"
                 ><img :src="require('@/assets/svg/social_media/icons8-instagram.svg')"
             /></a>
