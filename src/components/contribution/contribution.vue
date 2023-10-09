@@ -1,4 +1,5 @@
 <template>
+    <hr class="contr-hr" />
     <h2 class="center">Projects i have contributed to</h2>
     <div class="contribution">
         <div class="project" v-for="item in contribution" :key="item.title">

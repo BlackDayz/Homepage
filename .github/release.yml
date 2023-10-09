@@ -1,0 +1,32 @@
+changelog:
+    exclude:
+        labels:
+            - internal
+    categories:
+        - title: New Features & Improvements
+          labels:
+              - enhancement
+              - feature
+
+        - title: Bug Fixes & Maintenance
+          labels:
+              - bug
+              - maintenance
+
+        - title: Documentation
+          labels:
+              - documentation
+              - docs
+
+        - title: Language
+          labels:
+              - language
+              - translation
+
+        - title: Dependencies Updates
+          labels:
+              - dependencies
+
+        - title: Other Changes
+          labels:
+              - '*'
