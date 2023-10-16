@@ -29,6 +29,25 @@
         ],
         "titlepage": true
     },
+    "rumathra-bingo": {
+        "name": "Rumathra Bingos",
+        "description": "... hinter diesem Projekt ist ein Bingo, welches vorher mit einem Paint Dokument gemacht wurde. Ich hab mich also vor meinen PC gesetzt und ein Bingo mit den Vorgaben des bisherigen erstellt.",
+        "tecstack": ["vue"],
+        "img": "rumathra-bingo.png",
+        "links": [
+            {
+                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
+                "link": "https://mittelblut9.github.io/rumathra-bingo/",
+                "name": "Bingo"
+            },
+            {
+                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
+                "link": "https://mittelblut9.github.io/rumathra-hardstuck-bingo/",
+                "name": "Fußball Verein \"Hardstuck\" Bingo"
+            }
+        ],
+        "titlepage": true
+    },
     "phenixgamesv3": {
         "name": "PhenixGames V3 GTAV RageMP Server",
         "description": "... hinter diesem Projekt stand ein RageMP-Onlineserver, der es Spielern ermöglichte, in eine Rollenspielwelt einzutauchen und mit ihrem Charakter eine Rolle zu übernehmen. Das Projekt wurde mangels Interesse an der Weiterentwicklung eingestellt.",
