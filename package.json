@@ -1,6 +1,6 @@
 {
     "name": "blackdayz",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "private": true,
     "requires": {
         "node": ">=18.15.0"
@@ -14,9 +14,9 @@
     },
     "dependencies": {
         "pretier": "^0.0.1",
-        "vue": "^3.3.4",
+        "vue": "^3.3.7",
         "vue-github-button": "^3.1.0",
-        "vue-loader": "^17.3.0",
+        "vue-loader": "^17.3.1",
         "vue-router": "^4.2.5"
     },
     "devDependencies": {
@@ -25,10 +25,10 @@
         "@vue/cli-plugin-unit-jest": "~5.0.0",
         "@vue/cli-service": "~5.0.0",
         "babel-jest": "^27.0.6",
-        "eslint": "^8.51.0",
+        "eslint": "^8.52.0",
         "eslint-config-prettier": "^9.0.0",
         "eslint-plugin-prettier": "^5.0.1",
-        "eslint-plugin-vue": "^9.17.0",
+        "eslint-plugin-vue": "^9.18.1",
         "execa": "^8.0.1",
         "jest": "^27.0.5",
         "prettier": "^3.0.3"
