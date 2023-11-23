@@ -136,7 +136,3 @@ export default {
     },
 };
 </script>
-
-<style scoped>
-@import url('@/assets/css/dc_profile/dc_profile.css');
-</style>

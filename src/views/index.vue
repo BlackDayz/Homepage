@@ -16,10 +16,11 @@
         </div>
     </header>
     <main>
-        <div class="about_me" id="me">
-            <about_me />
-
-            <div class="about_me_right right">
+        <div class="row bg-white">
+            <div class="col">
+                <about_me />
+            </div>
+            <div class="col">
                 <dc_profile />
             </div>
         </div>

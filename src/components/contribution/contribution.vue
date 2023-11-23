@@ -74,7 +74,3 @@ export default {
     },
 };
 </script>
-
-<style>
-@import url('@/assets/css/contribution/contribution.css');
-</style>

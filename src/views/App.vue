@@ -4,11 +4,7 @@
     <BlackDayzFooter />
 </template>
 
-<style>
-@import url('@/assets/css/style.css');
-@import url('@/assets/css/media.css');
-@import url('@/assets/font/style.css');
-</style>
+<style src="@/assets/scss/base.scss" lang="scss"></style>
 
 <script>
 import BlackDayzHeader from '@/components/_header/header.vue';

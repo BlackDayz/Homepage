@@ -1,0 +1,26 @@
+@import 'variables.scss';
+
+::-webkit-scrollbar {
+    width: 0px;
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-display: optional;
+    scrollbar-width: none;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: roboto, sans-serif;
+    background: $white;
+}
+
+a {
+    color: inherit;
+}
+

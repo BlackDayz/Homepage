@@ -38,5 +38,3 @@ export default {
     },
 };
 </script>
-
-<style src="@/assets/css/work/work.css" />

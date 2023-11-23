@@ -41,7 +41,3 @@ export default {
     },
 };
 </script>
-
-<style>
-@import url('@/assets/css/work/work.css');
-</style>

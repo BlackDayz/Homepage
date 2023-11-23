@@ -1,0 +1,12 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+@import 'bootstrap-vue-next/dist/bootstrap-vue-next.css';
+
+@import 'variables.scss';
+@import 'overrides.scss';
+
+@import 'homepage/homepage.scss';
+@import 'aboutme/aboutme.scss';
+@import 'contribution/contribution.scss';
+@import 'dc_profile/dc_profile.scss';
+@import 'projects/project.scss';
+@import 'work/work.scss';
