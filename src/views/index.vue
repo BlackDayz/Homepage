@@ -16,7 +16,7 @@
         </div>
     </header>
     <main>
-        <div class="row bg-white py-5 align-items-center ">
+        <div class="row bg-white py-5 align-items-center">
             <div class="col-12 col-lg-6">
                 <about_me />
             </div>

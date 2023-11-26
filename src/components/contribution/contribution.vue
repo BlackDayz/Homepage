@@ -1,8 +1,12 @@
 <template>
-    <hr class="contr-hr my-4 mx-auto " />
+    <hr class="contr-hr my-4 mx-auto" />
     <h2 class="text-center fw-bolder mt-5">Projects i have contributed to</h2>
     <div class="row contribution">
-        <div class="col-12 col-md-4 my-3 my-md-5 px-5" v-for="item in contribution" :key="item.title">
+        <div
+            class="col-12 col-md-4 my-3 my-md-5 px-5"
+            v-for="item in contribution"
+            :key="item.title"
+        >
             <h3 class="fw-bold">{{ item.title }}</h3>
             <p>{{ item.description }}</p>
             <github-button

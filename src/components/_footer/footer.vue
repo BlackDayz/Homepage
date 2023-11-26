@@ -24,7 +24,10 @@
                 ><img :src="require('@/assets/svg/social_media/icons8-github.svg')" class="mx-2"
             /></a>
             <a title="Page Source Code" href="https://github.com/BlackDayz/BlackDayz-Homepage"
-                ><img :src="require('@/assets/svg/social_media/source_code.svg')" width="24" class="mx-2"
+                ><img
+                    :src="require('@/assets/svg/social_media/source_code.svg')"
+                    width="24"
+                    class="mx-2"
             /></a>
         </span>
     </footer>

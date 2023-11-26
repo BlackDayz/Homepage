@@ -15,7 +15,11 @@
                 v-show="project.titlepage"
             >
                 <router-link :to="'/projects?work=' + index">
-                    <img :src="require('@/assets/img/projects/' + project.img)" width="100%" class="w-100 h-100 object-fit-cover object-position-center opacity-50 z-n1"/>
+                    <img
+                        :src="require('@/assets/img/projects/' + project.img)"
+                        width="100%"
+                        class="w-100 h-100 object-fit-cover object-position-center opacity-50 z-n1"
+                    />
                 </router-link>
                 <h1 class="work_name fw-bold z-1 text-center z-1 fs-1">{{ project.name }}</h1>
             </div>

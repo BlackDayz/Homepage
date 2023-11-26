@@ -72,8 +72,10 @@
             <p class="mb-5">{{ info_text }}</p>
             <div class="p_links d-flex justify-content-center align-items-center">
                 <div v-for="link in links" :key="link.name" class="px-3">
-                    <img :src="link.icon" class="mb-2"/>
-                    <p class="fs-6"><a :href="link.link">{{ link.name }}</a></p>
+                    <img :src="link.icon" class="mb-2" />
+                    <p class="fs-6">
+                        <a :href="link.link">{{ link.name }}</a>
+                    </p>
                 </div>
             </div>
         </main>

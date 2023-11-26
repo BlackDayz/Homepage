@@ -31,8 +31,8 @@
             <div class="d-flex align-items-center">
                 <img :src="require('@/assets/img/icons/cloud-48.png')" width="42" />
                 <span class="ms-3">
-                    Most of the days i'm working on projects like websites or my own Discord Bot.. or
-                    uhm.. just playing games :)
+                    Most of the days i'm working on projects like websites or my own Discord Bot..
+                    or uhm.. just playing games :)
                 </span>
             </div>
         </li>
