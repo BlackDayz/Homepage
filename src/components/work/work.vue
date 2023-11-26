@@ -1,7 +1,7 @@
 <template>
     <div class="references user-select-none">
         <header class="text-center">
-            <h2>My work</h2>
+            <h2 class="fw-bold">My work</h2>
 
             <div class="ref_gif_top display-flex justify-content-center py-5">
                 <img :src="require('@/assets/gif/developer_funny.gif')" id="dev_funny_gif" />
@@ -17,7 +17,7 @@
                 <router-link :to="'/projects?work=' + index">
                     <img :src="require('@/assets/img/projects/' + project.img)" width="100%" class="w-100 h-100 object-fit-cover object-position-center opacity-50 z-n1"/>
                 </router-link>
-                <h1 class="work_name fw-bold z-1 text-center z-1">{{ project.name }}</h1>
+                <h1 class="work_name fw-bold z-1 text-center z-1 fs-1">{{ project.name }}</h1>
             </div>
         </main>
 
