@@ -1,29 +1,29 @@
 <template>
-    <main id="work_wrapper">
+    <div class="row">
         <div
-            class="work"
+            class="work col-12 col-md-6 m-0 p-0"
             v-for="(project, index) in projects"
             :key="index"
             v-show="!project.titlepage"
         >
             <router-link :to="'/projects?work=' + index">
-                <img :src="require('@/assets/img/projects/' + project.img)" width="100%" />
+                <img :src="require('@/assets/img/projects/' + project.img)" width="100%" class="w-100 h-100 object-fit-cover object-position-center opacity-50 z-n1"/>
             </router-link>
-            <h1 class="work_name">{{ project.name }}</h1>
+            <h1 class="work_name fw-bold z-1 text-center z-1">{{ project.name }}</h1>
         </div>
         <!--To show all titlepage projects on the bottom to not show them twice-->
         <div
-            class="work"
+            class="work col-12 col-md-6 m-0 p-0"
             v-for="(project, index) in projects"
             :key="index"
             v-show="project.titlepage"
         >
             <router-link :to="'/projects?work=' + index">
-                <img :src="require('@/assets/img/projects/' + project.img)" width="100%" />
+                <img :src="require('@/assets/img/projects/' + project.img)" width="100%" class="w-100 h-100 object-fit-cover object-position-center opacity-50 z-n1"/>
             </router-link>
-            <h1 class="work_name">{{ project.name }}</h1>
+            <h1 class="work_name fw-bold z-1 text-center z-1">{{ project.name }}</h1>
         </div>
-    </main>
+    </div>
 </template>
 
 <script>

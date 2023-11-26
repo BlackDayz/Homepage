@@ -1,47 +1,11 @@
 @import '../variables.scss';
 
 .top_page {
-    height: 100vh;
-    background: var(--white);
-}
-
-.head_text {
-    height: 70%;
-    text-align: left;
+    background: $white;
 }
 
 .head_text h1 {
-    font-size: 4vw;
-    letter-spacing: 3.4px;
-}
-
-.head_text_big {
-    font-size: 20vw;
-    font-weight: 900;
-}
-
-@media only screen and (min-width: 1582px) {
-    .head_text_big {
-        font-size: 20rem;
-    }
-    .head_text h1 {
-        font-size: 5rem;
-        letter-spacing: 3.4px;
-    }
-}
-
-@media only screen and (max-height: 900px) {
-    .head_text_big {
-        font-size: 10rem;
-    }
-    .head_text h1 {
-        font-size: 5rem;
-        letter-spacing: 3.4px;
-    }
-}
-
-.head_text_big div {
-    margin: 10px 0 0 0;
+    font-size: 6rem;
 }
 
 .head_text_change_animation {
@@ -78,17 +42,6 @@
     }
 }
 
-.head_arrows {
-    top: 85vh;
-    left: 50%;
-
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-}
-
 .head_arrows img {
     animation: head_arrow 1s infinite alternate;
     -webkit-animation: head_arrow 1s infinite alternate;
@@ -114,63 +67,32 @@
 
 .references,
 .my-bots {
-    background: var(--white);
+    background: $white;
 }
 
 .references header,
 .my-bots header {
     padding: 50px;
     letter-spacing: 5px;
-}
 
-.references header h2::after,
-.my-bots header h2::after {
-    content: '';
-    width: 100px;
-    height: 2px;
-    position: absolute;
-    left: 50%;
-    margin-top: 40px;
-    transform: translateX(-50%);
-    background: black;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-}
-
-.ref_gif_top,
-.bots_gif_top {
-    padding: 50px 0 50px 0;
+    h2::after {
+        content: '';
+        width: 100px;
+        height: 2px;
+        position: absolute;
+        left: 50%;
+        margin-top: 40px;
+        transform: translateX(-50%);
+        background: black;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
 }
 
 #dev_funny_gif,
 #dc_funny_gif {
-    width: 600px;
-}
-
-.references main {
-    padding: 90px 0;
-}
-
-footer {
-    padding: 10px 0;
-}
-
-footer span img {
-    margin: 0 10px;
-}
-
-.privacy,
-.impressum {
-    margin: 50px auto;
-    width: 50%;
-}
-
-.bot-showcase a {
-    margin: 50px auto;
-}
-
-.bot-showcase a img {
-    width: 300px;
+    width: 80%;
+    max-width: 600px;
 }

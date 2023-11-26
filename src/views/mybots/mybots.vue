@@ -1,7 +1,7 @@
 <template>
     <div class="my-bots user-select-none">
-        <header class="center">
-            <h2>My Discord bot</h2>
+        <header class="text-center">
+            <h2 class="my-5">My Discord bot</h2>
 
             <div class="bot-showcase display-flex justify-content-center">
                 <a :href="mittelbotURL" class="link">
