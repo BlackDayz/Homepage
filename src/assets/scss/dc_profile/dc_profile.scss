@@ -1,49 +1,11 @@
-.tooltip {
-    display: none;
-    position: absolute;
-    color: #eeeeee;
-    background: #202020;
-    padding: 5px 4px;
-    border-radius: 3px;
-    max-width: 150px;
-    width: max-content;
-    font-size: 0.83rem;
-}
-
-.tooltip-up {
-    bottom: 40px;
-    right: -10px;
-
-    &::before {
-        content: '';
-        position: absolute;
-        right: 10px;
-        bottom: -6px;
-        width: 0;
-        height: 0;
-        border-left: 6px solid transparent;
-        border-right: 6px solid transparent;
-        border-top: 6px solid #202020;
-    }
-}
-
-.card-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 .card {
-    box-sizing: border-box;
     background: #171717;
-    width: 400px;
-    height: max-content;
-    border-radius: 9px;
     -webkit-box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.514);
     box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.514);
-    overflow: auto;
-    scrollbar-width: none;
-    margin: 0 0 0 18%;
+
+    @media (min-width: 576px) { 
+        width: 350px !important;
+    }
 }
 
 .card::-webkit-scrollbar {
@@ -51,45 +13,21 @@
 }
 
 .card-header {
-    padding: 0;
-
-    .banner {
-        width: 100%;
-        height: 60px;
-        background: #ff8527;
-    }
-
     .banner-image {
-        width: 100%;
         height: 120px;
         background-position: center !important;
         background-size: 100% auto !important;
     }
 
     .infos {
-        padding: 0 15px;
-        position: relative;
-
         .profil-logo {
-            position: absolute;
             top: -175%;
-            background: black;
-            border-radius: 50%;
             height: 80px;
-            -webkit-border-radius: 50%;
-            -moz-border-radius: 50%;
-            -ms-border-radius: 50%;
-            -o-border-radius: 50%;
 
             img {
-                width: 80px;
-                height: 80px;
+                width: 90px;
+                height: 90px;
                 border: 6px solid #171717;
-                border-radius: 50%;
-                -webkit-border-radius: 50%;
-                -moz-border-radius: 50%;
-                -ms-border-radius: 50%;
-                -o-border-radius: 50%;
             }
 
             &::before {
@@ -98,10 +36,12 @@
                 position: absolute;
                 right: 0;
                 top: 0;
-                width: 87%;
-                height: 84%;
+                width: 90px;
+                height: 90px;
                 border: 6px solid #171717;
-                content: 'See Profil';
+                content: 'View Profile';
+                text-transform: uppercase;
+                white-space: nowrap;
                 color: #eeeeee;
                 background: #0000007e;
                 border-radius: 50%;
@@ -119,119 +59,48 @@
         }
 
         .badges-container {
-            position: absolute;
-            top: -58%;
-            right: 0;
-            padding: inherit;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: flex-end;
+            top: -70%;
             width: 160px;
 
             .badge-item {
-                position: relative;
-                margin-left: 8px;
-                margin-bottom: 5px;
                 height: 15px;
-                display: flex;
-                justify-content: center;
-
-                img {
-                    height: 100%;
-                }
-
-                &:hover > .tooltip {
-                    display: block;
-                }
             }
-        }
-
-        .username {
-            color: #eeeeee;
-            margin-top: 39px;
-            font-weight: 600;
-            font-size: 1.3rem;
-
-            span {
-                font-weight: 500;
-                color: #8f8f8f;
-            }
-        }
-
-        hr {
-            border: 1px solid #ffffff;
         }
     }
 }
 
 .card-content {
-    padding: 0 15px;
-
     .category-title {
         color: #c2c2c2;
-        font-weight: 600;
-        text-transform: uppercase;
         font-size: 0.85rem;
-        margin-bottom: 10px;
     }
 
-    .about-me {
-        margin-bottom: 12px;
-
-        p {
-            color: #eee;
-            font-size: 0.9rem;
-        }
+    .about-me p {
+        font-size: 0.9rem;
     }
 
     .roles {
-        margin-bottom: 12px;
-
         .roles-list {
-            display: flex;
-            flex-wrap: wrap;
-
             .role {
                 background: #353535;
-                color: #f5f5f5;
-                border-radius: 2px;
                 font-size: 0.85rem;
-                font-weight: 300;
-                padding: 2px 6px;
-                margin-right: 4px;
-                margin-top: 4px;
-                display: flex;
-                align-items: center;
-                flex-direction: row;
 
                 .color {
                     width: 11px;
                     height: 11px;
                     background: orange;
-                    border-radius: 50%;
-                    margin-right: 5px;
                 }
             }
         }
     }
 
     .note {
-        margin-bottom: 15px;
-
         textarea {
-            border: none;
             outline: none;
             background: #171717;
-            width: 100%;
             min-height: 30px;
-            color: #e0e0e0;
             resize: none;
             font-size: 0.7rem;
-            border-radius: 3px;
-            padding: 5px;
-            box-sizing: border-box;
-            scrollbar-width: none;
-            font-family: 'Whitney', sans-serif;
 
             &::-webkit-scrollbar {
                 display: none;
@@ -249,18 +118,10 @@
 }
 
 .card-footer {
-    padding: 0 15px 15px 15px;
-
     input {
         background: #353535;
         outline: none;
-        border: 1.5px solid #333333;
         padding: 10px;
-        width: 100%;
-        box-sizing: border-box;
-        border-radius: 3px;
-        color: #eeeeee;
-        transition-duration: 0.3s;
 
         &::focus {
             border-color: orange;
