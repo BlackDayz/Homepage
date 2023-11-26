@@ -1,0 +1,130 @@
+.card {
+    background: #171717;
+    -webkit-box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.514);
+    box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.514);
+
+    @media (min-width: 576px) {
+        width: 350px !important;
+    }
+}
+
+.card::-webkit-scrollbar {
+    display: none;
+}
+
+.card-header {
+    .banner-image {
+        height: 120px;
+        background-position: center !important;
+        background-size: 100% auto !important;
+    }
+
+    .infos {
+        .profil-logo {
+            top: -175%;
+            height: 80px;
+
+            img {
+                width: 90px;
+                height: 90px;
+                border: 6px solid #171717;
+            }
+
+            &::before {
+                opacity: 0;
+                cursor: pointer;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 90px;
+                height: 90px;
+                border: 6px solid #171717;
+                content: 'View Profile';
+                text-transform: uppercase;
+                white-space: nowrap;
+                color: #eeeeee;
+                background: #0000007e;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 0.7rem;
+                text-transform: uppercase;
+                transition-duration: 0.15s;
+            }
+
+            &:hover::before {
+                opacity: 1;
+            }
+        }
+
+        .badges-container {
+            top: -70%;
+            width: 160px;
+
+            .badge-item {
+                height: 15px;
+            }
+        }
+    }
+}
+
+.card-content {
+    .category-title {
+        color: #c2c2c2;
+        font-size: 0.85rem;
+    }
+
+    .about-me p {
+        font-size: 0.9rem;
+    }
+
+    .roles {
+        .roles-list {
+            .role {
+                background: #353535;
+                font-size: 0.85rem;
+
+                .color {
+                    width: 11px;
+                    height: 11px;
+                    background: orange;
+                }
+            }
+        }
+    }
+
+    .note {
+        textarea {
+            outline: none;
+            background: #171717;
+            min-height: 30px;
+            resize: none;
+            font-size: 0.7rem;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            &::placeholder {
+                font-size: 0.7rem;
+            }
+
+            &:focus {
+                background: #1f1f1f;
+            }
+        }
+    }
+}
+
+.card-footer {
+    input {
+        background: #353535;
+        outline: none;
+        padding: 10px;
+
+        &::focus {
+            border-color: orange;
+        }
+    }
+}

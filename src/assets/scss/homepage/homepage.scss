@@ -1,0 +1,102 @@
+@import '../variables.scss';
+
+.top_page {
+    background: $white;
+}
+
+.head_text h1 {
+    font-size: 4rem;
+
+    @media (min-width: 768px) {
+        font-size: 6rem;
+    }
+}
+
+.head_text_change_animation {
+    animation: head_text_change 1s ease-in-out;
+    -webkit-animation: head_text_change 1s ease-in-out;
+}
+
+@keyframes head_text_change {
+    0% {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateX(30px);
+        -webkit-transform: translateX(30px);
+        -moz-transform: translateX(30px);
+        -ms-transform: translateX(30px);
+        -o-transform: translateX(30px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.head_arrows img {
+    animation: head_arrow 1s infinite alternate;
+    -webkit-animation: head_arrow 1s infinite alternate;
+}
+
+@keyframes head_arrow {
+    0% {
+        transform: translateY(5px);
+        -webkit-transform: translateY(5px);
+        -moz-transform: translateY(5px);
+        -ms-transform: translateY(5px);
+        -o-transform: translateY(5px);
+    }
+
+    100% {
+        transform: translateY(10px);
+        -webkit-transform: translateY(10px);
+        -moz-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        -o-transform: translateY(10px);
+    }
+}
+
+.references,
+.my-bots {
+    background: $white;
+}
+
+.references header,
+.my-bots header {
+    padding: 50px;
+    letter-spacing: 5px;
+
+    h2::after {
+        content: '';
+        width: 100px;
+        height: 2px;
+        position: absolute;
+        left: 50%;
+        margin-top: 40px;
+        transform: translateX(-50%);
+        background: black;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+}
+
+#dev_funny_gif,
+#dc_funny_gif {
+    width: 80%;
+    max-width: 600px;
+}

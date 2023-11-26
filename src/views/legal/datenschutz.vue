@@ -1,13 +1,13 @@
 <template>
-    <div class="privacy">
+    <div class="privacy my-4 mx-auto w-100 mx-5 px-5">
         <img src="https://img.icons8.com/color/48/000000/germany.png" />
-        <h1 class="center">Datenschutzerklärung</h1>
+        <h1 class="text-center fw-bold">Datenschutzerklärung</h1>
         <p>
             Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der
             EU-Datenschutzgrundverordnung (DSGVO), ist:
         </p>
         <p>Benedikt Sauer</p>
-        <h3>Ihre Betroffenenrechte</h3>
+        <h3 class="fw-bold">Ihre Betroffenenrechte</h3>
         <p>
             Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten können Sie jederzeit
             folgende Rechte ausüben:
@@ -50,8 +50,8 @@
             >.
         </p>
         <p></p>
-        <h3>Erfassung allgemeiner Informationen beim Besuch unserer Website</h3>
-        <h3>Art und Zweck der Verarbeitung:</h3>
+        <h3 class="fw-bold">Erfassung allgemeiner Informationen beim Besuch unserer Website</h3>
+        <h3 class="fw-bold">Art und Zweck der Verarbeitung:</h3>
         <p>
             Wenn Sie auf unsere Website zugreifen, d.h., wenn Sie sich nicht registrieren oder
             anderweitig Informationen übermitteln, werden automatisch Informationen allgemeiner
@@ -71,23 +71,23 @@
             dieser Art werden von uns ggfs. statistisch ausgewertet, um unseren Internetauftritt und
             die dahinterstehende Technik zu optimieren.
         </p>
-        <h3>Rechtsgrundlage:</h3>
+        <h3 class="fw-bold">Rechtsgrundlage:</h3>
         <p>
             Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO auf Basis unseres berechtigten
             Interesses an der Verbesserung der Stabilität und Funktionalität unserer Website.
         </p>
-        <h3>Empfänger:</h3>
+        <h3 class="fw-bold">Empfänger:</h3>
         <p>
             Empfänger der Daten sind ggf. technische Dienstleister, die für den Betrieb und die
             Wartung unserer Webseite als Auftragsverarbeiter tätig werden.
         </p>
-        <h3>Speicherdauer:</h3>
+        <h3 class="fw-bold">Speicherdauer:</h3>
         <p>
             Die Daten werden gelöscht, sobald diese für den Zweck der Erhebung nicht mehr
             erforderlich sind. Dies ist für die Daten, die der Bereitstellung der Webseite dienen,
             grundsätzlich der Fall, wenn die jeweilige Sitzung beendet ist.
         </p>
-        <h3>Bereitstellung vorgeschrieben oder erforderlich:</h3>
+        <h3 class="fw-bold">Bereitstellung vorgeschrieben oder erforderlich:</h3>
         <p>
             Die Bereitstellung der vorgenannten personenbezogenen Daten ist weder gesetzlich noch
             vertraglich vorgeschrieben. Ohne die IP-Adresse ist jedoch der Dienst und die
@@ -96,8 +96,8 @@
             Widerspruch ausgeschlossen.
         </p>
         <p></p>
-        <h3>Verwendung von Adobe Typekit</h3>
-        <h3>Art und Zweck der Verarbeitung:</h3>
+        <h3 class="fw-bold">Verwendung von Adobe Typekit</h3>
+        <h3 class="fw-bold">Art und Zweck der Verarbeitung:</h3>
         <p>
             Wir setzen Adobe Typekit zur visuellen Gestaltung unserer Website ein. Typekit ist ein
             Dienst der Adobe Systems Software Ireland Companies (4-6 Riverwalk, Citywest Business
@@ -112,12 +112,12 @@
                 >https://www.adobe.com/de/privacy/policy.html</a
             >
         </p>
-        <h3>Rechtsgrundlage:</h3>
+        <h3 class="fw-bold">Rechtsgrundlage:</h3>
         <p>
             Rechtsgrundlage für die Einbindung von Adobe Typekit und dem damit verbundenen
             Datentransfer zu Adobe ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).
         </p>
-        <h3>Empfänger:</h3>
+        <h3 class="fw-bold">Empfänger:</h3>
         <p>
             Der Aufruf von Scriptbibliotheken oder Schriftbibliotheken löst automatisch eine
             Verbindung zum Betreiber der Bibliothek aus. Informationen über die Nutzung Ihrer Daten
@@ -131,12 +131,12 @@
                 >https://www.adobe.com/de/privacy/policies/typekit.html</a
             >.
         </p>
-        <h3>Speicherdauer:</h3>
+        <h3 class="fw-bold">Speicherdauer:</h3>
         <p>
             Wir erheben keine personenbezogenen Daten durch die Einbindung von Adobe Typekit Web
             Fonts.
         </p>
-        <h3>Drittlandtransfer:</h3>
+        <h3 class="fw-bold">Drittlandtransfer:</h3>
         <p>
             Adobe ist unter dem Privacy-Shield-Abkommen zertifiziert und bietet hierdurch eine
             Garantie, das europäische Datenschutzrecht einzuhalten (<a
@@ -146,15 +146,15 @@
                 >https://www.privacyshield.gov/participant?id=a2zt0000000TNo9AAG&status=Active</a
             >).
         </p>
-        <h3>Bereitstellung vorgeschrieben oder erforderlich:</h3>
+        <h3 class="fw-bold">Bereitstellung vorgeschrieben oder erforderlich:</h3>
         <p>
             Die Bereitstellung der personenbezogenen Daten ist weder gesetzlich, noch vertraglich
             vorgeschrieben. Allerdings kann ohne die korrekte Darstellung der Inhalte von
             Standardschriften nicht ermöglicht werden.
         </p>
         <p></p>
-        <h3>Eingebettete YouTube-Videos</h3>
-        <h3>Art und Zweck der Verarbeitung:</h3>
+        <h3 class="fw-bold">Eingebettete YouTube-Videos</h3>
+        <h3 class="fw-bold">Art und Zweck der Verarbeitung:</h3>
         <p>
             Auf einigen unserer Webseiten betten wir YouTube-Videos ein. Betreiber der
             entsprechenden Plugins ist die YouTube, LLC, 901 Cherry Ave., San Bruno, CA 94066, USA
@@ -180,14 +180,14 @@
             >). Google verarbeitet Ihre Daten in den USA und hat sich dem EU-US Privacy Shield
             unterworfen https://www.privacyshield.gov/EU-US-Framework
         </p>
-        <h3>Rechtsgrundlage:</h3>
+        <h3 class="fw-bold">Rechtsgrundlage:</h3>
         <p>
             Rechtsgrundlage für die Einbindung von YouTube und dem damit verbundenen Datentransfer
             zu Google ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).
         </p>
-        <h3>Empfänger:</h3>
+        <h3 class="fw-bold">Empfänger:</h3>
         <p>Der Aufruf von YouTube löst automatisch eine Verbindung zu Google aus.</p>
-        <h3>Speicherdauer und Widerruf der Einwilligung:</h3>
+        <h3 class="fw-bold">Speicherdauer und Widerruf der Einwilligung:</h3>
         <p>
             Wer das Speichern von Cookies für das Google-Ad-Programm deaktiviert hat, wird auch beim
             Anschauen von YouTube-Videos mit keinen solchen Cookies rechnen müssen. YouTube legt
@@ -201,7 +201,7 @@
                 >https://www.google.de/intl/de/policies/privacy/
             </a>
         </p>
-        <h3>Drittlandtransfer:</h3>
+        <h3 class="fw-bold">Drittlandtransfer:</h3>
         <p>
             Google verarbeitet Ihre Daten in den USA und hat sich dem EU_US Privacy Shield
             unterworfen
@@ -209,28 +209,28 @@
                 >https://www.privacyshield.gov/EU-US-Framework</a
             >.
         </p>
-        <h3>Bereitstellung vorgeschrieben oder erforderlich:</h3>
+        <h3 class="fw-bold">Bereitstellung vorgeschrieben oder erforderlich:</h3>
         <p>
             Die Bereitstellung Ihrer personenbezogenen Daten erfolgt freiwillig, allein auf Basis
             Ihrer Einwilligung. Sofern Sie den Zugriff unterbinden, kann es hierdurch zu
             Funktionseinschränkungen auf der Website kommen.
         </p>
         <p></p>
-        <h3>SSL-Verschlüsselung</h3>
+        <h3 class="fw-bold">SSL-Verschlüsselung</h3>
         <p>
             Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, verwenden wir dem
             aktuellen Stand der Technik entsprechende Verschlüsselungsverfahren (z. B. SSL) über
             HTTPS.
         </p>
         <p></p>
-        <h3>Änderung unserer Datenschutzbestimmungen</h3>
+        <h3 class="fw-bold">Änderung unserer Datenschutzbestimmungen</h3>
         <p>
             Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den
             aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in
             der Datenschutzerklärung umzusetzen, z.B. bei der Einführung neuer Services. Für Ihren
             erneuten Besuch gilt dann die neue Datenschutzerklärung.
         </p>
-        <h3>Fragen an den Datenschutzbeauftragten</h3>
+        <h3 class="fw-bold">Fragen an den Datenschutzbeauftragten</h3>
         <p>
             Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden
             Sie sich direkt an die für den Datenschutz verantwortliche Person in unserer

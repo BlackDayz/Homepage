@@ -1,89 +1,83 @@
 <template>
-    <div class="card-container">
-        <div class="card">
-            <div class="card-header">
+    <div class="card-container d-flex">
+        <div class="card d-block my-0 mx-auto w-75 rounded-2">
+            <div class="card-header p-0">
                 <div
                     :style="{ backgroundImage: `url(${require('@/assets/gif/banner.gif')})` }"
-                    class="banner-image"
+                    class="banner-image w-100"
                 ></div>
-                <div class="infos">
-                    <div class="profil-logo">
-                        <img :src="require('@/assets/img/logo.png')" />
+                <div class="infos px-3 position-relative">
+                    <div class="profil-logo position-absolute bg-black rounded-circle">
+                        <img :src="require('@/assets/img/logo.png')" class="rounded-circle" />
                     </div>
-                    <div class="badges-container">
-                        <!-- <div class="badge-item">
-                        <img src="img/badges/team.webp" alt="" />
-                        <div class="tooltip tooltip-up"></div>
-                    </div>
-                    <div class="badge-item">
-                        <img src="img/badges/partner.webp" alt="" />
-                        <div class="tooltip tooltip-up">Tooltip</div>
-                    </div>
-                    <div class="badge-item">
-                        <img src="img/badges/megabughunter.webp" alt="" />
-                        <div class="tooltip tooltip-up">Tooltip</div>
-                    </div>
-                    <div class="badge-item">
-                        <img src="img/badges/eventcreator.webp" alt="" />
-                        <div class="tooltip tooltip-up">Tooltip</div>
-                    </div> -->
-                        <div class="badge-item">
-                            <img :src="require('@/assets/img/badges/hypesquad.webp')" alt="" />
-                            <div class="tooltip tooltip-up">HypeSquad Balance</div>
+                    <div
+                        class="badges-container position-absolute end-0 d-flex justify-content-end me-3"
+                    >
+                        <div class="badge-item position-relative ms-2">
+                            <img
+                                :src="require('@/assets/img/badges/hypesquad.webp')"
+                                alt="hypesquad"
+                                class="h-100"
+                            />
                         </div>
-                        <div class="badge-item">
-                            <img :src="require('@/assets/img/badges/moderator.webp')" alt="" />
-                            <div class="tooltip tooltip-up">Non-verified Discord Moderator</div>
+                        <div class="badge-item position-relative ms-2">
+                            <img
+                                :src="require('@/assets/img/badges/moderator.webp')"
+                                alt="Discord Moderator"
+                                class="h-100"
+                            />
                         </div>
-                        <!-- <div class="badge-item">
-                        <img src="img/badges/firsttimenitro.webp" alt="" />
-                        <div class="tooltip tooltip-up"></div>
-                    </div> -->
-                        <div class="badge-item">
-                            <img :src="require('@/assets/img/badges/nitro.webp')" alt="" />
-                            <div class="tooltip tooltip-up">Discord Nitro user</div>
+                        <div class="badge-item position-relative ms-2">
+                            <img
+                                :src="require('@/assets/img/badges/nitro.webp')"
+                                alt="Discord Nitro"
+                                class="h-100"
+                            />
                         </div>
-                        <div class="badge-item">
-                            <img :src="require('@/assets/img/badges/boost.webp')" alt="" />
-                            <div class="tooltip tooltip-up">Website boosting since 2019</div>
+                        <div class="badge-item position-relative ms-2">
+                            <img
+                                :src="require('@/assets/img/badges/boost.webp')"
+                                alt="Discord boost"
+                                class="h-100"
+                            />
                         </div>
                     </div>
-                    <div class="username">Mittelblut9<span>#1974</span></div>
-                    <hr />
+                    <div class="username text-white mt-5 fw-bold fs-4">Mittelblut9</div>
+                    <hr class="border-1 border-white" />
                 </div>
             </div>
-            <div class="card-content">
-                <div class="about-me">
-                    <div class="category-title">About Me</div>
-                    <p>
+            <div class="card-content px-3">
+                <div class="about-me mb-2">
+                    <div class="category-title fw-bold text-uppercase mb-2">About Me</div>
+                    <p class="text-white">
                         🧑‍💻<strong>Web Dev</strong> - <i>vue3, nodejs, php</i><br />
                         🛠️ <strong>Moderator</strong> <br />
                         🛡️
                         <i
                             ><a
                                 href="https://www.yaeow.com/"
-                                class="link white"
+                                class="text-white"
                                 target="_blank"
                                 rel="nofollow"
                                 >yaeow</a
                             >,
                             <a
                                 href="https://biglink.to/chilledsad"
-                                class="link white"
+                                class="text-white"
                                 target="_blank"
                                 rel="nofollow"
                                 >chilledsad</a
                             >,
                             <a
                                 href="https://www.youtube.com/c/nostalgicmusic"
-                                class="link white"
+                                class="text-white"
                                 target="_blank"
                                 rel="nofollow"
                                 >nostalgic</a
                             >,
                             <a
                                 href="https://www.youtube.com/channel/UCz-rxehhsrMAyBEJdf4NG2w"
-                                class="link white"
+                                class="text-white"
                                 target="_blank"
                                 rel="nofollow"
                                 >thegoodvibe</a
@@ -93,22 +87,34 @@
                         🤖 Mittelbot <strong>BETA</strong>
                     </p>
                 </div>
-                <div class="roles">
-                    <div class="category-title">Roles (Skills)</div>
-                    <div class="roles-list">
-                        <div class="role" v-for="skill in skills" :key="skill">
-                            <div class="color"></div>
+                <div class="roles mb-3">
+                    <div class="category-title fw-bold text-uppercase mb-2">Roles (Skills)</div>
+                    <div class="roles-list d-flex flex-wrap">
+                        <div
+                            class="role rounded-1 text-white fw-light py-1 px-2 me-1 mt-1 d-flex align-items-center flex-row"
+                            v-for="skill in skills"
+                            :key="skill"
+                        >
+                            <div class="color rounded-circle me-1"></div>
                             {{ skill }}
                         </div>
                     </div>
                 </div>
-                <div class="note">
-                    <div class="category-title">Note</div>
-                    <textarea placeholder="Click for add a note" id="dc_profile_note"></textarea>
+                <div class="note mb-2">
+                    <div class="category-title fw-bold text-uppercase mb-2">Note</div>
+                    <textarea
+                        placeholder="Click for add a note"
+                        id="dc_profile_note"
+                        class="border-0 w-100 text-white rounded-2 p-2"
+                    ></textarea>
                 </div>
             </div>
-            <div class="card-footer">
-                <input type="text" placeholder="Send a message to @Mittelblut9" />
+            <div class="card-footer p-3 pt-0">
+                <input
+                    type="text"
+                    placeholder="Send a message to @Mittelblut9"
+                    class="border-0 w-100 rounded-1 text-white"
+                />
             </div>
         </div>
     </div>
@@ -136,7 +142,3 @@ export default {
     },
 };
 </script>
-
-<style scoped>
-@import url('@/assets/css/dc_profile/dc_profile.css');
-</style>

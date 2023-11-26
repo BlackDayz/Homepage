@@ -1,25 +1,26 @@
 <template>
-    <header class="top_page width-100">
-        <div class="head_text center absolute">
-            <h1 class="black text-transform-up">BlackDayz</h1>
-            <div class="head_text_big">
-                <div id="head_text_change">WEB</div>
-                <div id="head_text_second_dev">Developer</div>
+    <header class="top_page width-100 h-100">
+        <div class="head_text text-center mb-5">
+            <h1 class="fw-bold">BlackDayz</h1>
+            <div class="head_text_big d-grid text-left">
+                <span class="h1 head_text_change m-0">{{ defaultTitle }}</span>
+                <span class="h1 head_text_second_dev m-0">Developer</span>
             </div>
         </div>
 
-        <div class="head_arrows center absolute">
-            <p>Grab some fresh news about me!</p>
+        <div class="head_arrows text-center m-5 pt-5">
+            <p class="m-0">Grab some fresh news about me!</p>
             <a href="#me"
-                ><img :src="require('@/assets/img/icons/double-down-arrow-24px.png')"
+                ><img :src="require('@/assets/img/icons/double-down-arrow-24px.png')" class="m-0"
             /></a>
         </div>
     </header>
     <main>
-        <div class="about_me" id="me">
-            <about_me />
-
-            <div class="about_me_right right">
+        <div class="row bg-white py-5 align-items-center">
+            <div class="col-12 col-lg-6">
+                <about_me />
+            </div>
+            <div class="col-12 col-lg-6 d-flex justify-content-center">
                 <dc_profile />
             </div>
         </div>
@@ -52,6 +53,7 @@ export default {
             titles: ['WEB', 'BOT', 'JUNIOR'],
             intervalTime: 3000,
             lastTitle: '',
+            defaultTitle: 'WEB',
         };
     },
 
@@ -60,6 +62,7 @@ export default {
     },
 
     mounted() {
+        this.lastTitle = this.defaultTitle;
         setInterval(() => {
             this.changeHeaderTitle();
         }, this.intervalTime);
@@ -67,7 +70,7 @@ export default {
 
     methods: {
         changeHeaderTitle() {
-            const div = document.getElementById('head_text_change');
+            const div = document.querySelector('.head_text_change');
             if (!div) return;
 
             const title = this.getTitle();
@@ -93,7 +96,7 @@ export default {
         },
 
         triggerAnimation() {
-            const div = document.getElementById('head_text_change');
+            const div = document.querySelector('.head_text_change');
             if (!div) return;
 
             div.classList.add('head_text_change_animation');

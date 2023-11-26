@@ -1,8 +1,8 @@
 <!-- eslint-disable vue/no-parsing-error -->
 <template>
-    <div class="impressum">
+    <div class="impressum my-4 mx-auto w-100 mx-5 px-5">
         <img src="https://img.icons8.com/color/48/000000/germany.png" />
-        <h1 class="center">Impressum</h1>
+        <h1 class="text-center fw-bold">Impressum</h1>
         <p>Angaben gemäß § 5 TMG</p>
         <p>Benedikt Sauer <br /></p>
         <p>
