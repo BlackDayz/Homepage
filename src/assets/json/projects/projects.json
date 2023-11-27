@@ -144,8 +144,13 @@
         "links": [
             {
                 "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
-                "link": "https://scarex.mittelbot.xyzn",
+                "link": "https://blackdayz.github.io/scarex-portfolio/",
                 "name": "Website"
+            },
+            {
+                "icon": "https://img.icons8.com/color/48/000000/code.png",
+                "link": "https://github.com/BlackDayz/scarex-portfolio",
+                "name": "GitHub"
             }
         ],
         "footer": [],
