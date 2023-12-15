@@ -4,22 +4,28 @@ window.addEventListener('load', function () {
     if (getCookie(dc_note_cookie)) {
         try {
             document.getElementById('dc_profile_note').innerHTML = getCookie(dc_note_cookie);
-        } catch (e) {}
+        } catch (e) {
+            //eslint-disable-next-line no-console
+            console.error(e);
+        }
     }
 
     const x = document.querySelectorAll('.refercence_ct');
 
     Array.from(x).forEach((b) => {
         b.style.backgroundImage = `url('${b.dataset.img}')`;
-        b.style.backgroundPosition = `center`;
-        b.style.backgroundSize = `cover`;
+        b.style.backgroundPosition = 'center';
+        b.style.backgroundSize = 'cover';
     });
 
     try {
         document.getElementById('dc_profile_note').addEventListener('focusout', function () {
             return setCookie(dc_note_cookie, this.value, 356);
         });
-    } catch (e) {}
+    } catch (e) {
+        //eslint-disable-next-line no-console
+        console.error(e);
+    }
 });
 
 function setCookie(cname, cvalue, exdays) {
