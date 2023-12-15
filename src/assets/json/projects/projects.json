@@ -38,12 +38,27 @@
             {
                 "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
                 "link": "https://mittelblut9.github.io/rumathra-bingo/",
-                "name": "Bingo"
+                "name": "Offizielles Bingo"
             },
             {
                 "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
                 "link": "https://mittelblut9.github.io/rumathra-hardstuck-bingo/",
                 "name": "Fußball Verein \"Hardstuck\" Bingo"
+            },
+            {
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
+                "link": "https://mittelblut9.github.io/rumathra-rosin-bingo/",
+                "name": "Rosin Bingo"
+            },
+            {
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
+                "link": "https://mittelblut9.github.io/rumathra-7-vs-wild-bingo/",
+                "name": "7 vs Wild Bingo"
+            },
+            {
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
+                "link": "https://mittelblut9.github.io/ruamthra-amar-bingo/",
+                "name": "Amar cup Bingo"
             }
         ],
         "titlepage": true
