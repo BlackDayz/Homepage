@@ -8,7 +8,8 @@
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
-        "lint": "vue-cli-service lint",
+        "lint": "vue-cli-service lint --c .tools/eslint/.eslintrc.js --cache --cache-location .tools/eslint/.cache/",
+        "lint:fix": "vue-cli-service lint --c .tools/eslint/.eslintrc.js --fix --cache --cache-location .tools/eslint/.cache/",
         "format": "prettier --config .tools/prettier/.prettierrc --ignore-path .tools/prettier/.prettierignore --write .",
         "check": "prettier --config .tools/prettier/.prettierrc --ignore-path .tools/prettier/.prettierignore --check ."
     },
