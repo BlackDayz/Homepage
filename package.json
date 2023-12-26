@@ -1,6 +1,6 @@
 {
     "name": "blackdayz",
-    "version": "2.0.0",
+    "version": "2.0.4",
     "private": true,
     "requires": {
         "node": ">=18.15.0"
@@ -8,18 +8,19 @@
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
-        "lint": "vue-cli-service lint",
+        "lint": "vue-cli-service lint --c .tools/eslint/.eslintrc.js --cache --cache-location .tools/eslint/.cache/",
+        "lint:fix": "vue-cli-service lint --c .tools/eslint/.eslintrc.js --fix --cache --cache-location .tools/eslint/.cache/",
         "format": "prettier --config .tools/prettier/.prettierrc --ignore-path .tools/prettier/.prettierignore --write .",
         "check": "prettier --config .tools/prettier/.prettierrc --ignore-path .tools/prettier/.prettierignore --check ."
     },
     "dependencies": {
         "bootstrap": "^5.3.2",
-        "bootstrap-vue-next": "^0.15.4",
+        "bootstrap-vue-next": "^0.15.5",
         "pretier": "^0.0.1",
         "sass": "^1.69.5",
-        "vue": "^3.3.8",
+        "vue": "^3.3.13",
         "vue-github-button": "^3.1.0",
-        "vue-loader": "^17.3.1",
+        "vue-loader": "^17.4.0",
         "vue-router": "^4.2.5"
     },
     "devDependencies": {
@@ -28,16 +29,16 @@
         "@vue/cli-plugin-unit-jest": "~5.0.0",
         "@vue/cli-service": "~5.0.0",
         "babel-jest": "^27.0.6",
-        "eslint": "^8.54.0",
-        "eslint-config-prettier": "^9.0.0",
-        "eslint-plugin-prettier": "^5.0.1",
-        "eslint-plugin-vue": "^9.18.1",
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.1.2",
+        "eslint-plugin-vue": "^9.19.2",
         "execa": "^8.0.1",
         "jest": "^27.0.5",
         "node-sass": "^9.0.0",
-        "prettier": "^3.1.0",
-        "sass-loader": "^13.3.2",
-        "unplugin-vue-components": "^0.25.2"
+        "prettier": "^3.1.1",
+        "sass-loader": "^13.3.3",
+        "unplugin-vue-components": "^0.26.0"
     },
     "eslintConfig": {
         "root": true,

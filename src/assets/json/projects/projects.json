@@ -6,7 +6,7 @@
         "img": "mittelbot.png",
         "links": [
             {
-                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
                 "link": "https://mittelbot.xyz",
                 "name": "Webseite"
             },
@@ -16,7 +16,7 @@
                 "name": "GitHub"
             },
             {
-                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
                 "link": "https://mittelbot.xyz/invite",
                 "name": "Discord Invite"
             }
@@ -36,14 +36,29 @@
         "img": "rumathra-bingo.png",
         "links": [
             {
-                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
                 "link": "https://mittelblut9.github.io/rumathra-bingo/",
-                "name": "Bingo"
+                "name": "Offizielles Bingo"
             },
             {
-                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
                 "link": "https://mittelblut9.github.io/rumathra-hardstuck-bingo/",
                 "name": "Fußball Verein \"Hardstuck\" Bingo"
+            },
+            {
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
+                "link": "https://mittelblut9.github.io/rumathra-rosin-bingo/",
+                "name": "Rosin Bingo"
+            },
+            {
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
+                "link": "https://mittelblut9.github.io/rumathra-7-vs-wild-bingo/",
+                "name": "7 vs Wild Bingo"
+            },
+            {
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
+                "link": "https://mittelblut9.github.io/ruamthra-amar-bingo/",
+                "name": "Amar cup Bingo"
             }
         ],
         "titlepage": true
@@ -69,7 +84,7 @@
         "img": "phenixgames.png",
         "links": [
             {
-                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
                 "link": "https://phenixgames.de",
                 "name": "Webseite"
             },
@@ -143,9 +158,14 @@
         "img": "scarex.png",
         "links": [
             {
-                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
-                "link": "https://scarex.mittelbot.xyzn",
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
+                "link": "https://blackdayz.github.io/scarex-portfolio/",
                 "name": "Website"
+            },
+            {
+                "icon": "https://img.icons8.com/color/48/000000/code.png",
+                "link": "https://github.com/BlackDayz/scarex-portfolio",
+                "name": "GitHub"
             }
         ],
         "footer": [],
@@ -219,7 +239,7 @@
                 "name": "Website Version 1"
             },
             {
-                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
                 "link": "https://github.com/Mittelblut9/MyOpenSourceProjects-Outdated/tree/main/Cookie_Clicker_V2",
                 "name": "GitHub Version 1"
             },
@@ -229,7 +249,7 @@
                 "name": "Website Version 2"
             },
             {
-                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
                 "link": "https://github.com/Mittelblut9/Cookie-Clicker",
                 "name": "GitHub Version 2"
             }
@@ -248,7 +268,7 @@
         "img": "easylogin.png",
         "links": [
             {
-                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
                 "link": "#",
                 "name": "Webseite"
             },
@@ -310,7 +330,7 @@
         "img": "redesign.png",
         "links": [
             {
-                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
                 "link": "https://www.visuelle-mediengestaltung.de/",
                 "name": "Originale Webseite"
             },
@@ -334,7 +354,7 @@
         "img": "veryeasycalculator.png",
         "links": [
             {
-                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
                 "link": "https://mittelblut9.github.io/Calculator-JavaScript/",
                 "name": "Webseite"
             },
@@ -363,7 +383,7 @@
                 "name": "GitHub"
             },
             {
-                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
                 "link": "https://addons.mozilla.org/de/firefox/addon/no-unfollow-twitch/",
                 "name": "Firefox Addon"
             }
@@ -401,7 +421,7 @@
         "img": "studiodevoyage.png",
         "links": [
             {
-                "icon": "https://img.icons8.com/material-rounded/48/000000/external-link.png",
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
                 "link": "https://studio-de-voyage.de/",
                 "name": "Online-Shop"
             }
