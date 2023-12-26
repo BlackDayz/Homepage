@@ -1,7 +1,7 @@
 <template>
     <div class="references user-select-none">
         <header class="text-center">
-            <h2 class="fw-bold">My work</h2>
+            <h2 class="fw-bold">{{ text.title }}</h2>
 
             <div class="ref_gif_top display-flex justify-content-center py-5">
                 <img :src="require('@/assets/gif/developer_funny.gif')" id="dev_funny_gif" />
@@ -26,7 +26,9 @@
         </main>
 
         <div class="work_show_more text-center my-5">
-            <router-link to="/overview" class="p-3 fw-bold rounded-1">Show more</router-link>
+            <router-link to="/overview" class="p-3 fw-bold rounded-1">{{
+                text.showMore
+            }}</router-link>
         </div>
     </div>
 </template>
@@ -41,6 +43,10 @@ export default {
     data() {
         return {
             projects,
+            text: {
+                title: 'My work',
+                showMore: 'Show more',
+            },
         };
     },
 };

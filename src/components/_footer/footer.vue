@@ -1,9 +1,9 @@
 <template>
     <footer class="text-center my-3">
         <p>
-            <router-link to="/impressum" class="link black">Impressum</router-link> |
-            <router-link to="/datenschutz" class="link black">privacy</router-link> |
-            <strong>BlackDayz &copy;{{ year }}</strong>
+            <router-link to="/impressum" class="link black">{{ text.impressum }}</router-link> |
+            <router-link to="/datenschutz" class="link black">{{ text.privacy }}</router-link> |
+            <strong>{{ text.company }} &copy;{{ year }}</strong>
         </p>
         <span class="display-flex justify-content-center">
             <a title="BlackDayz Instagram" href="https://www.instagram.com/blackdayz_de/"
@@ -39,6 +39,11 @@ export default {
     name: 'BlackDayzFooter',
     data() {
         return {
+            text: {
+                impressum: 'Impressum',
+                privacy: 'Datenschutz',
+                company: 'BlackDayz',
+            },
             year: new Date().getFullYear(),
         };
     },

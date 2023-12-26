@@ -1,6 +1,6 @@
 <template>
     <hr class="contr-hr my-4 mx-auto" />
-    <h2 class="text-center fw-bolder mt-5">Projects i have contributed to</h2>
+    <h2 class="text-center fw-bolder mt-5">{{ text.title }}</h2>
     <div class="row contribution">
         <div
             class="col-12 col-md-4 my-3 my-md-5 px-5"
@@ -31,6 +31,9 @@ export default {
     },
     data() {
         return {
+            text: {
+                title: 'Contributions',
+            },
             contribution: [
                 {
                     title: 'Guardian',
