@@ -32,7 +32,7 @@ export default {
     data() {
         return {
             text: {
-                title: "Contributions",
+                title: 'Contributions',
             },
             contribution: [
                 {

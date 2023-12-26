@@ -42,13 +42,13 @@
                             />
                         </div>
                     </div>
-                    <div class="username text-white mt-5 fw-bold fs-4">Mittelblut9</div>
+                    <div class="username text-white mt-5 fw-bold fs-4">{{ text.username }}</div>
                     <hr class="border-1 border-white" />
                 </div>
             </div>
             <div class="card-content px-3">
                 <div class="about-me mb-2">
-                    <div class="category-title fw-bold text-uppercase mb-2">About Me</div>
+                    <div class="category-title fw-bold text-uppercase mb-2">{{ text.aboutMe }}</div>
                     <p class="text-white">
                         🧑‍💻<strong>Web Dev</strong> - <i>vue3, nodejs, php</i><br />
                         🛠️ <strong>Moderator</strong> <br />
@@ -88,7 +88,7 @@
                     </p>
                 </div>
                 <div class="roles mb-3">
-                    <div class="category-title fw-bold text-uppercase mb-2">Roles (Skills)</div>
+                    <div class="category-title fw-bold text-uppercase mb-2">{{ text.roles }}</div>
                     <div class="roles-list d-flex flex-wrap">
                         <div
                             class="role rounded-1 text-white fw-light py-1 px-2 me-1 mt-1 d-flex align-items-center flex-row"
@@ -101,7 +101,7 @@
                     </div>
                 </div>
                 <div class="note mb-2">
-                    <div class="category-title fw-bold text-uppercase mb-2">Note</div>
+                    <div class="category-title fw-bold text-uppercase mb-2">{{ text.note }}</div>
                     <textarea
                         placeholder="Click for add a note"
                         id="dc_profile_note"
@@ -125,6 +125,12 @@ export default {
     name: 'dc_profile',
     data() {
         return {
+            text: {
+                username: 'Mittelblut9',
+                aboutMe: 'About Me',
+                roles: 'Roles (Skills)',
+                note: 'Note',
+            },
             skills: [
                 'CSS3',
                 'JavaScript',
