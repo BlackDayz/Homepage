@@ -1,70 +1,10 @@
 <template>
     <div class="row p_detail">
-        <router-link :to="backLink" class="position-absolute top-0">home</router-link>
+        <a :href="backLink" class="position-absolute top-0">home</a>
         <header class="col-12 text-center mb-5">
             <h1 class="mt-5 text-uppercase fw-bold">{{ work_name }}</h1>
             <p class="text-center">
-                <img
-                    src="https://img.icons8.com/windows/48/000000/html.png"
-                    title="html"
-                    v-if="tecstack.isHTML"
-                    class="me-2"
-                />
-                <img
-                    src="https://img.icons8.com/windows/48/000000/vuejs.png"
-                    title="vue.js"
-                    v-if="tecstack.isVue"
-                    class="me-2"
-                />
-                <img
-                    src="https://img.icons8.com/color/48/000000/nodejs.png"
-                    title="node.js"
-                    v-if="tecstack.isNode"
-                    class="me-2"
-                />
-                <span v-if="tecstack.isAxios" class="me-2">Axios</span>
-                <img
-                    src="https://img.icons8.com/ios-filled/50/000000/jquery.png"
-                    title="jquery"
-                    v-if="tecstack.isJQuery"
-                    class="me-2"
-                />
-                <img
-                    src="https://img.icons8.com/color/48/000000/javascript--v1.png"
-                    title="javascript"
-                    v-if="tecstack.isJavascript"
-                    class="me-2"
-                />
-                <img
-                    src="https://img.icons8.com/officel/48/null/php-logo.png"
-                    title="php"
-                    v-if="tecstack.isPHP"
-                    class="me-2"
-                />
-                <img
-                    src="https://img.icons8.com/color/48/000000/css3.png"
-                    title="css"
-                    v-if="tecstack.isCSS"
-                    class="me-2"
-                />
-                <img
-                    src="https://img.icons8.com/ios-filled/48/null/yii-framework.png"
-                    title="yii"
-                    v-if="tecstack.isYii"
-                    class="me-2"
-                />
-                <img
-                    src="https://img.icons8.com/color/48/shopify.png"
-                    title="shopify"
-                    v-if="tecstack.isShopfiy"
-                    class="me-2"
-                />
-                <img
-                    src="https://img.icons8.com/ios/50/shopify.png"
-                    title="liquid"
-                    v-if="tecstack.isLiquid"
-                    class="me-2"
-                />
+                <ProjectTechAtom :techstack="techstack" />
             </p>
         </header>
         <main class="col-12 col-lg-6 p_info bg-black px-5 py-4 text-white">
@@ -94,6 +34,8 @@
 
 <script>
 import projects from '@/assets/json/projects/projects.json';
+import ProjectTechAtom from '@/atoms/projectTech.atom.vue';
+
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
     name: 'projects',
@@ -101,25 +43,16 @@ export default {
         return {
             backLink: window.location.origin,
             work_name: '',
-            tecstack: {
-                isHTML: false,
-                isJavascript: false,
-                isVue: false,
-                isNode: false,
-                isAxios: false,
-                isJQuery: false,
-                isPHP: false,
-                isCSS: false,
-                isYii: false,
-                isShopfiy: false,
-                isLiquid: false,
-            },
             info_text: '',
+            techstack: [],
             links: [],
             footer: [],
         };
     },
-    mounted() {
+    components: {
+        ProjectTechAtom,
+    },
+    beforeMount() {
         const urlParams = new URLSearchParams(window.location.search);
         const work = urlParams.get('work');
         const selectedWork = projects[work];
@@ -127,18 +60,7 @@ export default {
         this.info_text = selectedWork.description;
         this.links = selectedWork.links;
         this.footer = selectedWork.footer;
-
-        this.tecstack.isHTML = selectedWork.tecstack.includes('html');
-        this.tecstack.isJavascript = selectedWork.tecstack.includes('javascript');
-        this.tecstack.isVue = selectedWork.tecstack.includes('vue');
-        this.tecstack.isNode = selectedWork.tecstack.includes('node');
-        this.tecstack.isAxios = selectedWork.tecstack.includes('axios');
-        this.tecstack.isJQuery = selectedWork.tecstack.includes('jquery');
-        this.tecstack.isPHP = selectedWork.tecstack.includes('php');
-        this.tecstack.isCSS = selectedWork.tecstack.includes('css');
-        this.tecstack.isYii = selectedWork.tecstack.includes('yii');
-        this.tecstack.isShopfiy = selectedWork.tecstack.includes('shopify');
-        this.tecstack.isLiquid = selectedWork.tecstack.includes('liquid');
+        this.techstack = selectedWork.tecstack;
     },
 };
 </script>
