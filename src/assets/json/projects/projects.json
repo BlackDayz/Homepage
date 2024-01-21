@@ -63,6 +63,27 @@
         ],
         "titlepage": true
     },
+    "mittelblut9api": {
+        "name": "Mittelblut9 API",
+        "description": "... hinter diesem Projekt steht eine gebündelte Oberfläche mit der ich Projekte für Streamer verwalten kann. Dazu gehören derzeit: Stream Overlays, Bingos und custom angefertigte Elemente. Der Fokus liegt darauf, dass ich schnell und einfach neue Streamer hinzufügen, externe Editoren einladen und neue Projekte erstellen kann. ",
+        "tecstack": ["nuxt", "typescript", "vue"],
+        "img": "mittelblut9api/overlay_preview.png",
+        "footer": [
+            {
+                "isImg": true,
+                "src": "/img/projects/mittelblut9api/bingo_preview.png"
+            },
+            {
+                "isImg": true,
+                "src": "/img/projects/mittelblut9api/overlay_preview.png"
+            },
+            {
+                "isImg": true,
+                "src": "/img/projects/mittelblut9api/settings_preview.png"
+            }
+        ],
+        "titlepage": true
+    },
     "phenixgamesv3": {
         "name": "PhenixGames V3 GTAV RageMP Server",
         "description": "... hinter diesem Projekt stand ein RageMP-Onlineserver, der es Spielern ermöglichte, in eine Rollenspielwelt einzutauchen und mit ihrem Charakter eine Rolle zu übernehmen. Das Projekt wurde mangels Interesse an der Weiterentwicklung eingestellt.",
