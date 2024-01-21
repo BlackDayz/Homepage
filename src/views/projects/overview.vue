@@ -14,6 +14,9 @@
                 />
             </router-link>
             <h1 class="work_name fw-bold z-1 text-center z-1">{{ project.name }}</h1>
+            <div class="work_name fw-bold z-1 text-center z-1 fs-1">
+                <ProjectTechAtom :techstack="project.tecstack" />
+            </div>
         </div>
         <!--To show all titlepage projects on the bottom to not show them twice-->
         <div
@@ -30,12 +33,17 @@
                 />
             </router-link>
             <h1 class="work_name fw-bold z-1 text-center z-1">{{ project.name }}</h1>
+            <div class="work_name fw-bold z-1 text-center z-1 fs-1">
+                <ProjectTechAtom :techstack="project.tecstack" />
+            </div>
         </div>
     </div>
 </template>
 
 <script>
 import projects from '@/assets/json/projects/projects.json';
+import ProjectTechAtom from '@/atoms/projectTech.atom.vue';
+
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
     name: 'Slider',
@@ -44,5 +52,6 @@ export default {
             projects,
         };
     },
+    components: { ProjectTechAtom },
 };
 </script>
