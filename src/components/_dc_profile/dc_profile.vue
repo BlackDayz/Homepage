@@ -50,7 +50,7 @@
                 <div class="about-me mb-2">
                     <div class="category-title fw-bold text-uppercase mb-2">{{ text.aboutMe }}</div>
                     <p class="text-white">
-                        🧑‍💻<strong>Web Dev</strong> - <i>vue3, nodejs, php</i><br />
+                        🧑‍💻<strong>Web & Bot Dev</strong><br />
                         🛠️ <strong>Moderator</strong> <br />
                         🛡️
                         <i
@@ -81,10 +81,15 @@
                                 target="_blank"
                                 rel="nofollow"
                                 >thegoodvibe</a
-                            ></i
-                        ><br />
-                        🧑‍💻 <strong>Bot Developer</strong><br />
-                        🤖 Mittelbot <strong>BETA</strong>
+                            >,
+                            <a
+                                href="https://www.funk.net/"
+                                class="text-white"
+                                target="_blank"
+                                rel="nofollow"
+                                >funk</a
+                            >
+                        </i>
                     </p>
                 </div>
                 <div class="roles mb-3">
@@ -143,6 +148,8 @@ export default {
                 'Discord.js',
                 'Docker',
                 'Sequelize',
+                'Nuxt.js',
+                'Typescript',
             ],
         };
     },
