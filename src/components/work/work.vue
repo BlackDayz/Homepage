@@ -22,6 +22,9 @@
                     />
                 </router-link>
                 <h1 class="work_name fw-bold z-1 text-center z-1 fs-1">{{ project.name }}</h1>
+                <div class="work_name fw-bold z-1 text-center z-1 fs-1">
+                    <ProjectTechAtom :techstack="project.tecstack" />
+                </div>
             </div>
         </main>
 
@@ -35,11 +38,11 @@
 
 <script>
 import projects from '@/assets/json/projects/projects.json';
+import ProjectTechAtom from '@/atoms/projectTech.atom.vue';
 
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
     name: 'Slider',
-
     data() {
         return {
             projects,
@@ -49,5 +52,6 @@ export default {
             },
         };
     },
+    components: { ProjectTechAtom },
 };
 </script>
