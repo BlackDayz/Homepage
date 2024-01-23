@@ -1,22 +1,33 @@
 <template>
-    <header class="top_page width-100 h-100">
-        <div class="head_text text-center mb-5">
+    <header
+        class="top_page width-100 d-grid justify-content-center align-items-end"
+        :style="{
+            'background-image': `url(${require('@/assets/gif/homepage/homepage_background.gif')})`,
+        }"
+    >
+        <div class="head_text text-center mb-5 text-white">
             <h1 class="fw-bold">BlackDayz</h1>
-            <div class="head_text_big d-grid text-left">
+            <div class="head_text_big d-flex justify-content-between ms-2">
                 <span class="h1 head_text_change m-0">{{ defaultTitle }}</span>
                 <span class="h1 head_text_second_dev m-0">Developer</span>
             </div>
         </div>
 
         <div class="head_arrows text-center m-5 pt-5">
-            <p class="m-0">Grab some fresh news about me!</p>
-            <a href="#me"
-                ><img :src="require('@/assets/img/icons/double-down-arrow-24px.png')" class="m-0"
-            /></a>
+            <p class="m-0 text-white">Grab some fresh news about me!</p>
+            <a href="#me">
+                <img
+                    width="24"
+                    height="24"
+                    src="https://img.icons8.com/material-sharp/24/FFFFFF/expand-arrow--v1.png"
+                    alt="expand-arrow"
+                    class="m-0"
+                />
+            </a>
         </div>
     </header>
     <main>
-        <div class="row bg-white py-5 align-items-center">
+        <div class="row bg-white py-5 align-items-center" id="me">
             <div class="col-12 col-lg-6">
                 <about_me />
             </div>
