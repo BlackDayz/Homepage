@@ -1,6 +1,6 @@
 {
     "name": "blackdayz",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "private": true,
     "requires": {
         "node": ">=18.15.0"
