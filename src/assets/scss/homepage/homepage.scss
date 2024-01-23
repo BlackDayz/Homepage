@@ -1,14 +1,22 @@
 @import '../variables.scss';
 
 .top_page {
-    background: $white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .head_text h1 {
     font-size: 4rem;
+    text-shadow: 0 0 700px rgba(255, 255, 255, 0.692);
 
     @media (min-width: 768px) {
         font-size: 6rem;
+    }
+
+    @media (min-width: 1024px) {
+        font-size: 10rem;
     }
 }
 
