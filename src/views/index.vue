@@ -1,7 +1,9 @@
 <template>
     <header
         class="top_page width-100 d-grid justify-content-center align-items-end"
-        :style="{ 'background-image': `url(${require('@/assets/gif/homepage/homepage_background.gif')})` }"
+        :style="{
+            'background-image': `url(${require('@/assets/gif/homepage/homepage_background.gif')})`,
+        }"
     >
         <div class="head_text text-center mb-5 text-white">
             <h1 class="fw-bold">BlackDayz</h1>
