@@ -3,3 +3,4 @@ node_modules/
 ._*
 jquery-3.6.0.js
 dist/**/*
+jsconfig.json
