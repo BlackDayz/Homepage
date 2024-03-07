@@ -43,6 +43,7 @@
                         </div>
                     </div>
                     <div class="username text-white mt-5 fw-bold fs-4">{{ text.username }}</div>
+                    <ScrobblerComponent />
                     <hr class="border-1 border-white" />
                 </div>
             </div>
@@ -126,6 +127,7 @@
 </template>
 
 <script>
+import ScrobblerComponent from '@/components/scrobbler/scrobbler.component.vue';
 export default {
     name: 'dc_profile',
     data() {
@@ -150,8 +152,12 @@ export default {
                 'Sequelize',
                 'Nuxt.js',
                 'Typescript',
+                'Bootstrap',
             ],
         };
+    },
+    components: {
+        ScrobblerComponent,
     },
 };
 </script>
