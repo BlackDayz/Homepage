@@ -15,7 +15,7 @@
     },
     "dependencies": {
         "bootstrap": "^5.3.3",
-        "bootstrap-vue-next": "^0.17.6",
+        "bootstrap-vue-next": "^0.18.0",
         "pretier": "^0.0.1",
         "sass": "^1.77.2",
         "vue": "^3.4.27",
