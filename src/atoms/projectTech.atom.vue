@@ -78,6 +78,18 @@
         v-if="tecstackProps.isTypescript"
         class="me-2"
     />
+    <img
+        src="https://img.icons8.com/fluency/48/supabase.png"
+        title="supabase"
+        v-if="tecstackProps.isSupabase"
+        class="me-2"
+    />
+    <img
+        src="https://img.icons8.com/color/48/azure-relay-hybrid-connection.png"
+        title="websocket"
+        v-if="tecstackProps.isWebsocket"
+        class="me-2"
+    />
 </template>
 
 <script>
@@ -99,6 +111,8 @@ export default {
                 isLiquid: false,
                 isNuxt: false,
                 isTypescript: false,
+                isSupabase: false,
+                isWebsocket: false,
             },
         };
     },
@@ -124,6 +138,8 @@ export default {
             'liquid',
             'nuxt',
             'typescript',
+            'supabase',
+            'websocket',
         ];
 
         techNames.forEach((tech) => {
