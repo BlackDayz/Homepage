@@ -1,30 +1,40 @@
 {
-    "mittelbot": {
-        "name": "Mittelbot - Discord Bot",
-        "description": "... hinter dem Bot war eigentlich nur das Testen der Discord API. Daraus enstand schnell ein Feature nach dem anderen. Jetzt ist der Bot ein vollfunktionsfähiger Bot mit vielen Features, wie z.B. Musik, Moderation, Fun, Games, usw.",
-        "tecstack": ["javascript", "node"],
-        "img": "mittelbot.png",
+    "mostscuffed": {
+        "name": "Most Scuffed",
+        "description": "... hinter diesem Projekt, steckt eine Gameshow die von Rumathra gehostet wird. In dieser Gameshow geht es darum, wer am dümmsten ist fliegt - Oder auch \"Der Dümmste Fliegt\". Dabei spielen alle Spieler gegen einander und müssen Fragen beantworten. Am Ende jeder Runde fliegt der jenige mit den meisten Votes.",
+        "tecstack": ["vue", "node", "websocket"],
+        "img": "most_scuffed.png",
         "links": [
             {
-                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
-                "link": "https://mittelbot.xyz",
-                "name": "Webseite"
-            },
-            {
-                "icon": "https://img.icons8.com/color/48/000000/code.png",
-                "link": "https://github.com/Mittelbots/Mittelbot",
-                "name": "GitHub"
-            },
-            {
-                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
-                "link": "https://mittelbot.xyz/invite",
-                "name": "Discord Invite"
+                "icon": "https://img.icons8.com/fluency/48/youtube-play.png",
+                "link": "https://youtu.be/hWfrP8qfVEY?si=mxHtNoZSk5fYwc8X",
+                "name": "YouTube"
             }
         ],
         "footer": [
             {
-                "isVideo": true,
-                "src": "/mp4/mittelbot_v1.mp4"
+                "isIframe": true,
+                "src": "https://youtu.be/hWfrP8qfVEY?si=mxHtNoZSk5fYwc8X"
+            }
+        ],
+        "titlepage": true
+    },
+    "mostscuffed20": {
+        "name": "Most Scuffed 2.0",
+        "description": "... hinter diesem Projekt, steckt eine Gameshow die von Rumathra gehostet wird. In dieser Gameshow gab es zwei Teams mit jeweils 4 Mitgliedern. Diese mussten aus einem Satz das fehlende Wort erraten, welches vorher aus der Community gesammelt wurde. Das Team, welches am Ende die meisten Punkte hatte, gewann.",
+        "tecstack": ["nuxt", "supabase"],
+        "img": "most_scuffed_2.png",
+        "links": [
+            {
+                "icon": "https://img.icons8.com/fluency/48/youtube-play.png",
+                "link": "https://youtu.be/OtQi25_K2ac?si=Tl_Cm4MyHeIqd_nZ",
+                "name": "YouTube"
+            }
+        ],
+        "footer": [
+            {
+                "isIframe": true,
+                "src": "https://youtu.be/OtQi25_K2ac?si=Tl_Cm4MyHeIqd_nZ"
             }
         ],
         "titlepage": true
@@ -80,6 +90,36 @@
             {
                 "isImg": true,
                 "src": "/img/projects/mittelblut9api/settings_preview.png"
+            }
+        ],
+        "titlepage": true
+    },
+    "mittelbot": {
+        "name": "Mittelbot - Discord Bot",
+        "description": "... hinter dem Bot war eigentlich nur das Testen der Discord API. Daraus enstand schnell ein Feature nach dem anderen. Jetzt ist der Bot ein vollfunktionsfähiger Bot mit vielen Features, wie z.B. Musik, Moderation, Fun, Games, usw.",
+        "tecstack": ["javascript", "node"],
+        "img": "mittelbot.png",
+        "links": [
+            {
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
+                "link": "https://mittelbot.xyz",
+                "name": "Webseite"
+            },
+            {
+                "icon": "https://img.icons8.com/color/48/000000/code.png",
+                "link": "https://github.com/Mittelbots/Mittelbot",
+                "name": "GitHub"
+            },
+            {
+                "icon": "https://img.icons8.com/ios-glyphs/30/FFFFFF/external-link.png",
+                "link": "https://mittelbot.xyz/invite",
+                "name": "Discord Invite"
+            }
+        ],
+        "footer": [
+            {
+                "isVideo": true,
+                "src": "/mp4/mittelbot_v1.mp4"
             }
         ],
         "titlepage": true
